@@ -1,0 +1,26 @@
+- type: entity
+  parent: [ SimpleMobBase, FlyingMobBase ]
+  id: MobCtenoBase # placeholder
+  name: XenoBio Jellyfish Cteno thing # place holder
+  description: A simple jellyfish-like creature from a far off world. It's valued by science nerds for its mutable nature.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Impstation/Mobs/Aliens/XenoBio/placeholder.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      layers:
+      state: guy
+  - type: Item
+    size: Ginormous
+    sprite: _Impstation/Mobs/Aliens/XenoBio/placeholder.rsi
+    state: icon
+  - type: MultiHandedItem
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: guy
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
