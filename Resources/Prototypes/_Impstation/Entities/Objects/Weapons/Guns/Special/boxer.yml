@@ -1,0 +1,39 @@
+- type: entity
+  name: red boxing gloves
+  parent: BaseItem
+  id: WeaponExtendoGlove
+  suffix: Traitor, Extendo
+  description: A gun that pulls its user towards its target. Useful for getting around while off-grid, or doing some anime shit. # imp; it seriously didn't have a description before
+  components:
+    - type: Item
+      size: Small
+      shape:
+      - 0,0,1,0
+      - 0,1,0,1
+      storedOffset: 0,-6
+    - type: AmmoCounter
+    - type: GrapplingGun
+    - type: Gun
+      soundGunshot: /Audio/Weapons/Guns/Gunshots/harpoon.ogg
+      fireRate: 0.5
+      clumsyProof: true
+    - type: BasicEntityAmmoProvider
+      proto: ExtendoGlove
+      capacity: 1
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Launchers/grappling_gun.rsi
+      layers:
+        - state: base
+        - state: base-unshaded
+          map: [ "unshaded" ]
+          visible: true
+    - type: UseDelay
+      delay: 1.5
+    - type: Appearance
+    - type: GenericVisualizer
+      visuals:
+        enum.TetherVisualsStatus.Key:
+          unshaded:
+            True: { state: base-unshaded }
+            False: { state: base-unshaded-off }
+    - type: PacifismAllowedGun
