@@ -55,6 +55,7 @@
     solution: injector
   - type: MeleeChemicalInjector
     solution: injector
+    transferAmount: 5
   - type: EmbeddableProjectile
     offset: "0,-0.1"
     minimumSpeed: 3
