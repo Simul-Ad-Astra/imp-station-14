@@ -22,14 +22,14 @@
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 3
-    fillBaseName: icon
+    fillBaseName: fill-
     inHandsMaxFillLevels: 4
     inHandsFillBaseName: -fill-
     equippedFillBaseName: -fill-
     equippedMaxFillLevels: 4
   - type: Wieldable
   - type: MeleeRequiresWield
-  - type:
+  - type: MeleeWeapon
     wideAnimationRotation: 90
     range: 0.8
     attackRate: 0.8
@@ -46,6 +46,7 @@
       types:
         Blunt: 10
   - type: Injector
+    ignoreMobs: true
     activeModeProtoId: SyringeDrawMode
     allowedModes:
     - SyringeDrawMode # can only inject via attacking / throwing
