@@ -3,7 +3,7 @@
 namespace Content.Server._Impstation.Salvage;
 
 [RegisterComponent]
-[Access(typeof(SpeechRequiresEquipmentSystem))]
+[Access(typeof(SpeechRequiresEquipmentSystem))] // change this
 public sealed partial class DeathTeleporterComponent : Component
 {
     /// <summary>
