@@ -1,0 +1,96 @@
+- type: entity
+  parent: [ BaseItem, BaseGrandTheftContraband ]
+  id: syringeHyperdermicNeedle
+  name: Hyperdermic Needle
+  description:
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Weapons/Melee/hyperdermicneedle.rsi
+    layers:
+    - state: icon
+      map: [ "enum.SolutionContainerLayers.Base" ]
+    - state: fill-1
+      map: [ "enum.SolutionContainerLayers.Fill" ]
+      visible: false
+  - type: Icon
+    sprite: _Impstation/Objects/Weapons/Melee/hyperdermicneedle.rsi
+    state: icon
+  - type: SolutionContainerManager
+    solutions:
+      injector:
+        maxVol: 100
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 3
+    fillBaseName: icon
+    inHandsMaxFillLevels: 4
+    inHandsFillBaseName: -fill-
+    equippedFillBaseName: -fill-
+    equippedMaxFillLevels: 4
+  - type: Wieldable
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    range: 0.8
+    attackRate: 0.8
+    damage:
+      types:
+        Piercing: 2
+    angle: 0
+    animation: WeaponArcThrust
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+  - type: DamageOtherOnHit #for throwing
+    staminaCost: 6
+    damage:
+      types:
+        Blunt: 10
+  - type: Injector
+    activeModeProtoId: SyringeDrawMode
+    allowedModes:
+    - SyringeDrawMode # can only inject via attacking / throwing
+  - type: ExaminableSolution
+    solution: injector
+    exactVolume: true
+  - type: Spillable
+    solution: injector
+  - type: MeleeChemicalInjector
+    solution: injector
+  - type: EmbeddableProjectile
+    offset: "0,-0.1"
+    minimumSpeed: 3
+    removalTime: 0.25
+    embedOnThrow: false
+  - type: SolutionInjectWhileEmbedded
+    transferAmount: 1
+    solution: injector
+    updateInterval: 2
+  - type: SolutionInjectOnEmbed
+    transferAmount: 1
+    solution: injector
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.2
+        density: 5
+        mask:
+        - ItemMask
+        restitution: 0.3
+        friction: 0.2
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1,-0.3,0.1,0.3"
+        hard: false
+        mask:
+        - Impassable
+        - BulletImpassable
+  - type: Projectile
+    deleteOnCollide: false
+    onlyCollideWhenShot: false
+    damage:
+      types:
+        Piercing: 10
+  - type: Tag
+    tags:
+    - Syringe
