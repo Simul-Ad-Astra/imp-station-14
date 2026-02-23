@@ -2,7 +2,7 @@
   parent: [ BaseItem, BaseGrandTheftContraband ]
   id: syringeHyperdermicNeedle
   name: Hyperdermic Needle
-  description:
+  description: This will just be a small pinch.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Weapons/Melee/hyperdermicneedle.rsi
@@ -31,7 +31,7 @@
   - type: MeleeRequiresWield
   - type: MeleeWeapon
     wideAnimationRotation: 90
-    range: 0.8
+    range: 1.5
     attackRate: 0.8
     damage:
       types:
@@ -68,7 +68,7 @@
     solution: injector
     updateInterval: 2
   - type: SolutionInjectOnEmbed
-    transferAmount: 1
+    transferAmount: 5
     solution: injector
   - type: Fixtures # needed for embedding
     fixtures:
