@@ -111,6 +111,7 @@
   - type: RatKing
     hungerPerArmyUse: 25
     hungerPerDomainUse: 50
+  - type: DomainAction # imp
   - type: MobsterAccent
   - type: Speech
     speechVerb: SmallMob

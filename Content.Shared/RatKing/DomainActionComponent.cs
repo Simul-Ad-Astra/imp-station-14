@@ -6,7 +6,6 @@ using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototy
 namespace Content.Shared.RatKing;
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedDomainActionSystem))]
-[AutoGenerateComponentState]
 /// <summary>
 ///     Component for ratking's Domain action. Requires RatKingComponent for hunger.
 /// </summary>

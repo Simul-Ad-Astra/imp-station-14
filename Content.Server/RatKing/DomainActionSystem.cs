@@ -22,7 +22,7 @@ using Robust.Shared.Containers; // imp
 namespace Content.Server.RatKing
 {
     /// <inheritdoc/>
-    public sealed class DomainActionSystem : SharedRatKingSystem
+    public sealed class DomainActionSystem : SharedDomainActionSystem
     {
         [Dependency] private readonly AtmosphereSystem _atmos = default!;
         // [Dependency] private readonly ChatSystem _chat = default!;
@@ -37,14 +37,14 @@ namespace Content.Server.RatKing
         {
             base.Initialize();
 
-            SubscribeLocalEvent<RatKingComponent, RatKingDomainActionEvent>(OnDomain);
+            SubscribeLocalEvent<DomainActionComponent, RatKingDomainActionEvent>(OnDomain);
         }
 
         /// <summary>
         /// uses hunger to release a specific amount of ammonia into the air. This heals the rat king
         /// and his servants through a specific metabolism.
         /// </summary>
-        private void OnDomain(EntityUid uid, RatKingComponent component, RatKingDomainActionEvent args)
+        private void OnDomain(EntityUid uid, DomainActionComponent component, RatKingDomainActionEvent args)
         {
             if (args.Handled)
                 return;

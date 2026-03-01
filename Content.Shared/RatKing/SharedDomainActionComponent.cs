@@ -5,7 +5,7 @@ using Robust.Shared.Random;
 
 namespace Content.Shared.RatKing;
 
-public abstract class SharedRatKingSystem : EntitySystem
+public abstract class SharedDomainActionSystem : EntitySystem
 {
     [Dependency] protected readonly IPrototypeManager PrototypeManager = default!;
     [Dependency] protected readonly IRobustRandom Random = default!;
@@ -24,8 +24,6 @@ public abstract class SharedRatKingSystem : EntitySystem
             return;
 
         _action.AddAction(uid, ref component.ActionDomainEntity, component.ActionDomain, component: comp);
-
-        UpdateActions(uid, component);
     }
 
     private void OnShutdown(EntityUid uid, DomainActionComponent component, ComponentShutdown args)
