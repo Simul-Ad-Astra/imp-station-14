@@ -7,11 +7,6 @@ public sealed partial class RatKingRaiseArmyActionEvent : InstantActionEvent
 
 }
 
-public sealed partial class RatKingDomainActionEvent : InstantActionEvent
-{
-
-}
-
 public sealed partial class RatKingOrderActionEvent : InstantActionEvent
 {
     /// <summary>

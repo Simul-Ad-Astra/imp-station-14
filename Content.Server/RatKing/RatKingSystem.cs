@@ -38,7 +38,6 @@ namespace Content.Server.RatKing
             base.Initialize();
 
             SubscribeLocalEvent<RatKingComponent, RatKingRaiseArmyActionEvent>(OnRaiseArmy);
-            SubscribeLocalEvent<RatKingComponent, RatKingDomainActionEvent>(OnDomain);
             SubscribeLocalEvent<RatKingComponent, AfterPointedAtEvent>(OnPointedAt);
             SubscribeLocalEvent<RatKingComponent, AfterPointedArrowEvent>(OnPointedNearby); // imp
         }
@@ -70,32 +69,6 @@ namespace Content.Server.RatKing
             component.Servants.Add(servant);
             _npc.SetBlackboard(servant, NPCBlackboard.FollowTarget, new EntityCoordinates(uid, Vector2.Zero));
             UpdateServantNpc(servant, component.CurrentOrder);
-        }
-
-        /// <summary>
-        /// uses hunger to release a specific amount of ammonia into the air. This heals the rat king
-        /// and his servants through a specific metabolism.
-        /// </summary>
-        private void OnDomain(EntityUid uid, RatKingComponent component, RatKingDomainActionEvent args)
-        {
-            if (args.Handled)
-                return;
-
-            if (!TryComp<HungerComponent>(uid, out var hunger))
-                return;
-
-            //make sure the hunger doesn't go into the negatives
-            if (_hunger.GetHunger(hunger) < component.HungerPerDomainUse)
-            {
-                _popup.PopupEntity(Loc.GetString("rat-king-too-hungry"), uid, uid);
-                return;
-            }
-            args.Handled = true;
-            _hunger.ModifyHunger(uid, -component.HungerPerDomainUse, hunger);
-
-            _popup.PopupEntity(Loc.GetString("rat-king-domain-popup"), uid);
-            var tileMix = _atmos.GetTileMixture(uid, excite: true);
-            tileMix?.AdjustMoles(Gas.Ammonia, component.MolesAmmoniaPerDomain);
         }
 
         private void OnPointedAt(EntityUid uid, RatKingComponent component, ref AfterPointedAtEvent args)
