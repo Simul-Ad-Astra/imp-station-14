@@ -9,6 +9,7 @@ namespace Content.Shared.Fluids.Components;
 [Access(typeof(SharedSpraySystem))]
 public sealed partial class SprayComponent : Component
 {
+    [DataField]
     public const string SolutionName = "spray";
 
     [ViewVariables(VVAccess.ReadWrite), DataField]
