@@ -56,7 +56,28 @@
   - type: FoodSequenceElement
     entries:
       Burger: CigarBurger
-      Hotdog: CigarBurger 
+      Hotdog: CigarBurger
+  - type: UseDelay
+  - type: Spray
+    transferAmount: 5
+    pushbackAmount: 30
+    spraySound:
+      path: /Audio/Effects/spray3.ogg
+    sprayedPrototype: FlowerVapor
+    vaporAmount: 1
+    vaporSpread: 90
+    sprayVelocity: 1.0
+    sprayEmptyPopupMessage: pin-spray-popup-empty
+    solutionName: smokable
+  - type: ActionGrant
+    actions:
+    - ActionShootWater
+  - type: ItemActionGrant
+    actions:
+    - ActionShootWater
+    activeIfWorn: true
+  - type: EquipSpray
+    verbLocId: equip-spray-verb-press
   # imp edit end
 
 - type: entity
