@@ -33,7 +33,7 @@ public sealed partial class PlayerProvidedCharacterRecords
     // Employment
     [DataField]
     public int Year { get; private set; }
-    public const int MaxYear = 150;
+    public const int MaxYear = 999; // imp edit: changed from 150 to 999
 
     [DataField]
     public bool HasWorkAuthorization { get; private set; }
