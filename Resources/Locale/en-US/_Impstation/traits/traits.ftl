@@ -132,3 +132,8 @@ trait-hemorrhage-desc = You lose more blood while bleeding.
 trait-hungry-name = Hungry
 trait-hungry-desc = You skipped breakfast and will get hungry 5x faster than the average humanoid.
                        Incompatible with Kodepiia.
+
+trait-vampire-name = Minor Vampirism
+trait-vampire-desc = Your great great grandparent got freaky with a vampire and now you cannot eat normal food.
+                     You can, however, drink blood to satiate your hunger and thirst.
+                     Also restores a VERY minor amount of health.

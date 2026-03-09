@@ -137,7 +137,7 @@
   name: trait-soft-hands-name
   description: trait-soft-hands-desc
   category: Traits
-  excludedSpecies: 
+  excludedSpecies:
     - Allulalo
   components:
   - type: UnableToWield
@@ -168,8 +168,17 @@
   name: trait-hungry-name
   description: trait-hungry-desc
   category: Traits
-  excludedSpecies: 
+  excludedSpecies:
     - Kodepiia
   components:
   - type: HungryTrait
   cost: -1
+
+- type: trait
+  id: Vampire
+  name: trait-vampire-name
+  description: trait-vampire-desc
+  category: Traits
+  components:
+  - type: HungryTrait
+  cost: 2
