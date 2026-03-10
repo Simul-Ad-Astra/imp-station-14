@@ -28,6 +28,13 @@
         - !type:AdjustReagent
           reagent: UncookedAnimalProteins
           amount: 0.1
+          # imp changes start
+          conditions:
+          - !type:MetabolizerTypeCondition
+            type: [ Vampire ]
+            inverted: true # makes blood skip digesting into UncookedAnimalProteins, because those are supposed to make vampires sick
+          # imp changes end
+    Food:
     Medicine:
       effects:
       - !type:HealthChange
@@ -38,6 +45,22 @@
           groups:
             Brute: -3
             Burn: -1.25
+      # imp changes start
+      - !type:SatiateHunger
+        factor: 1
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+          inverted: true
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        damage:
+          groups:
+            Brute: -0.3
+            Burn: -0.1
+      # imp changes end
       - !type:ModifyBloodLevel # imp
         conditions:
         - !type:MetabolizerTypeCondition
@@ -90,6 +113,21 @@
         conditions:
         - !type:MetabolizerTypeCondition
           type: [Slime]
+      # imp changes start
+      - !type:SatiateHunger
+        factor: 1
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        damage:
+          groups:
+            Brute: -0.3
+            Burn: -0.1
+      # imp changes end
   footstepSound:
     collection: FootstepSlime # makes sense
     params:
@@ -193,6 +231,13 @@
             Bloodloss: -3
       - !type:ModifyBleed
         amount: -1.5
+      # imp changes start
+      - !type:SatiateHunger
+        factor: 1
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+      # imp changes end
   # Just in case you REALLY want to water your plants
   plantMetabolism:
   - !type:PlantAdjustWater
@@ -221,6 +266,28 @@
         conditions:
         - !type:MetabolizerTypeCondition
           type: [Kodepiia]
+      # imp changes start
+      - !type:PopupMessage
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        type: Local
+        visualType: MediumCaution
+        messages: [ "generic-reagent-effect-sick" ]
+        probability: 0.5
+      - !type:Vomit
+        probability: 0.1
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        damage:
+          types:
+            Poison: 1
+      # imp changes end
 
 - type: reagent
   id: Vomit

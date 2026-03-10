@@ -135,5 +135,4 @@ trait-hungry-desc = You skipped breakfast and will get hungry 5x faster than the
 
 trait-vampire-name = Minor Vampirism
 trait-vampire-desc = Your great great grandparent got freaky with a vampire and now you cannot eat normal food.
-                     You can, however, drink blood to satiate your hunger and thirst.
-                     Also restores a VERY minor amount of health.
+                     You can, however, drink blood to satiate your hunger and thirst. Also restores a VERY minor amount of health.
