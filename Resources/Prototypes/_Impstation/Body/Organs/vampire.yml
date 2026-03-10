@@ -25,7 +25,7 @@
   - type: Metabolizer
     # mm yummy
     maxReagents: 3
-    metabolizerTypes: [Human]
+    metabolizerTypes: [ Vampire ]
     groups:
     - id: Food
     - id: Drink
