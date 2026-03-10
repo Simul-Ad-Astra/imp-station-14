@@ -14,8 +14,28 @@
         # imp edit start
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Kodepiia ]
+          type: [ Kodepiia, Vampire ]
           inverted: true
+      - !type:PopupMessage
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        type: Local
+        visualType: MediumCaution
+        messages: [ "generic-reagent-effect-sick" ]
+        probability: 0.5
+      - !type:Vomit
+        probability: 0.1
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        damage:
+          types:
+            Poison: 1
         # imp edit end
   plantMetabolism:
   - !type:PlantAdjustNutrition
@@ -48,8 +68,28 @@
         # imp edit start
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Kodepiia ]
+          type: [ Kodepiia, Vampire ]
           inverted: true
+      - !type:PopupMessage
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        type: Local
+        visualType: MediumCaution
+        messages: [ "generic-reagent-effect-sick" ]
+        probability: 0.5
+      - !type:Vomit
+        probability: 0.1
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+      - !type:HealthChange
+        conditions:
+        - !type:MetabolizerTypeCondition
+          type: [ Vampire ]
+        damage:
+          types:
+            Poison: 1
         # imp edit end
   # Lets plants benefit too
   plantMetabolism:
