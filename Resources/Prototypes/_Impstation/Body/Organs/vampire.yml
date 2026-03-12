@@ -2,7 +2,7 @@
   id: OrganVampireStomach
   parent: BaseHumanOrgan
   name: stomach
-  description: "Gross. This is hard to stomach."
+  description: What is this? a stomach for a vampire?
   components:
   - type: Sprite
     state: stomach
