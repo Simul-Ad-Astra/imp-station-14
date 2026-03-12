@@ -33,3 +33,7 @@
 - type: metabolizerType
   id: Dinosaur
   name: metabolizer-type-dinosaur
+
+- type: metabolizerType
+  id: Vampire
+  name: metabolizer-type-vampire
