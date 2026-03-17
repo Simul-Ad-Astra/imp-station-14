@@ -15,3 +15,11 @@
   components:
   - type: Implanter
     implant: ButlerBombImplant
+
+- type: entity
+  id: CyberneticCockImplanter
+  name: cybernetic cock implanter
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+  - type: Implanter
+    implant: GayStorageImplant
