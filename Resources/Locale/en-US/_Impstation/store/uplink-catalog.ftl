@@ -156,3 +156,6 @@ uplink-taipan-desc = One "Taipan" Echion crossbow, bundled with a canister of it
 
 uplink-romerol-traitor-name = Romerol Micro-Injector
 uplink-romerol-traitor-desc = One romerol micro-injector for causing a zombie outbreak.
+
+uplink-cyber-cock-implanter-name =
+uplink-cyber-cock-implanter-desc =

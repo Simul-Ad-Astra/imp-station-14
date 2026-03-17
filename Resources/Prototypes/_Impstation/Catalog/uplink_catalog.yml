@@ -556,6 +556,23 @@
       components:
       - SurplusBundle
 
+- type: listing
+  id: UplinkCyberCockImplanter
+  name: uplink-gay-implanter-name
+  description: uplink-gay-implanter-desc
+  icon: { sprite: /Textures/Clothing/Back/Backpacks/backpack.rsi, state: icon }
+  productEntity: CyberneticCockImplanter
+  cost:
+    Telecrystal: 50
+  categories:
+  - UplinkImplants
+  conditions: # i want this to only show up in surplus crates
+  - !type:BuyerWhitelistCondition
+    makeHidden: true
+    whitelist:
+      components:
+      - SurplusBundle
+
 
 
 
