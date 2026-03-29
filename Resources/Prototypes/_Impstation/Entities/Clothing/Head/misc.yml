@@ -1,0 +1,15 @@
+# - type: entity
+#   parent: ClothingHeadBaseButcherable
+#   id: ClothingHeadHairbow
+#   name: hairbow
+#   description: PLACEHOLDER works for pets!
+#   components:
+#   - type: Sprite
+#     sprite:
+#   - type: Item
+#     sprite:
+#   - type: Tag
+#     tags:
+#     - PetWearable
+#     - CorgiWearable
+#     - HamsterWearable

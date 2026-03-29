@@ -385,6 +385,11 @@
       - 3
       - 3.5
       - 4
+  - type: Clothing
+    quickEquip: false
+    sprite: _Impstation/Mobs/Pets/jonny.rsi
+    slots:
+    - HEAD
 
 - type: entity
   name: Jonny Cockroach

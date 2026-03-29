@@ -93,8 +93,17 @@
     damage:
       types:
         Blunt: 3
-  - type: GoobAbsorbable # imp edit
+  # imp edit start
+  - type: GoobAbsorbable
     biomassRestored: 0.1
+  - type: Item
+    size: Tiny
+  - type: Clothing
+    quickEquip: false
+    sprite: Mobs/Aliens/Argocyte/argocyte_common.rsi
+    slots:
+    - HEAD
+  # imp edit end
 
 - type: entity
   parent: BaseMobArgocyte
