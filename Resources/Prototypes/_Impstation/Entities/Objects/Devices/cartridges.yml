@@ -14,3 +14,20 @@
         state: icon
     - type: SOSCartridge
 
+- type: entity
+  parent: BaseItem
+  id: DolbyAppCartridge
+  name: Dog App cartridge
+  description: A program to see dog.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/cartridge.rsi
+    state: cart-y
+  - type: Cartridge
+    programName: dolby-program-name
+    icon:
+      sprite: _Impstation/Mobs/Pets/dolby.rsi
+      state: dolby
+  - type: UIFragment
+    ui: !type:NotekeeperUi
+  - type: SOSCartridge
