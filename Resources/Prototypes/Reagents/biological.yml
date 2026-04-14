@@ -51,7 +51,6 @@
         conditions:
         - !type:MetabolizerTypeCondition
           type: [ Vampire ]
-          inverted: true
       - !type:HealthChange
         conditions:
         - !type:MetabolizerTypeCondition
