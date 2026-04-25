@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseItem
+  id: Boombox
+  name: boombox
+  description: Placeholder.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/spear.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Weapons/Melee/spear.rsi
+    size: Ginormous
+  - type: ActivatableUI
+    key: enum.InstrumentUiKey.Key
+  - type: ActivatableUIRequiresPower
+  - type: UserInterface
+    interfaces:
+        enum.JukeboxUiKey.Key:
+          type: JukeboxBoundUserInterface
+        enum.InstrumentUiKey.Key:
+          type: InstrumentBoundUserInterface
+  - type: Jukebox
+    onState: on
+    offState: off
+    selectState: select
+  - type: Instrument
+    allowPercussion: false
+    handheld: false
+    program: 81
