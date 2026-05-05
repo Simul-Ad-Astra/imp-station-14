@@ -36,3 +36,35 @@
     grid:
     - 0,0,5,1
     - 6,1,6,1
+
+- type: entity
+  id: CigCartonCandy
+  parent: [ BoxCardboard, BaseBagOpenClose ]
+  name: Cool Cowboy's Candy Cigarettes Carton
+  description: Comes with 5 packets of everyone's* favorite candy cigarettes. This product is not sutable for children.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Consumable/Smokeables/Cartons/green.rsi # imp
+    layers: # imp
+    - state: closed
+      map: ["closeLayer"]
+    - state: open
+      map: ["openLayer"]
+  - type: Item
+    sprite: _Impstation/Objects/Consumable/Smokeables/Cartons/green.rsi # imp
+    size: Normal
+  - type: Storage
+    grid:
+    - 0,0,4,1
+  - type: EntityTableContainerFill
+    containers:
+      storagebase:
+        id: CigPackGreen
+        amount: 5
+  - type: Tag
+    tags:
+    - Trash
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 50
+  - type: SpaceGarbage

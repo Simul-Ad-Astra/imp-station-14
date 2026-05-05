@@ -95,3 +95,31 @@
           prob: 0.75
         - id: CigaretteTazinide
           prob: 0.75
+
+- type: entity
+  id: CigPackCandy
+  parent: CigPackMixedBase
+  name: Cool Cowboy's Candy Cigarettes
+  description: A packet of candy in the shape of cigarettes. Warning, Cool Cowboy's cannot garentee all that all products within this box do not contain tobacco. This product is not sutable for children.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Consumable/Smokeables/Cigarettes/Packs/candy.rsi
+  - type: Item
+    sprite: _Impstation/Objects/Consumable/Smokeables/Cigarettes/Packs/candy.rsi
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:NestedSelector
+        rolls: 10
+        tableId: RandomCandyCigarette
+
+# Entity tables
+
+- type: entityTable
+  id: RandomCandyCigarette
+  table: !type:GroupSelector
+    children:
+    - id: CigaretteCandy
+      weight: 10
+    - id: Cigarette
+      weight: 1
+  

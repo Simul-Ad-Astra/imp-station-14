@@ -359,13 +359,6 @@
     heldPrefix: unlit
   - type: SolutionContainerManager
     solutions:
-      smokable:
-        maxVol: 20
-        reagents:
-          - ReagentId: Nicotine
-            Quantity: 5
-          - ReagentId: Sadness
-            Quantity: 5
       food:
         maxVol: 20
         reagents:
@@ -373,3 +366,41 @@
             Quantity: 5
           - ReagentId: Sadness
             Quantity: 5
+
+- type: entity
+  id: CigaretteCandy
+  parent: BaseCigar
+  name: candy cigarette
+  description: Doesn't taste great, but gives you some of the coolness of smoking with none of the lung cancer. 
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    state: unlit-icon
+  - type: Tag
+    tags:
+      - Cigarette
+      - Trash
+      - PetWearable 
+      - KodeEdible 
+  - type: StaticPrice
+    price: 1
+  - type: SpaceGarbage
+  - type: Clothing
+    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    slots: [ mask ]
+    equippedPrefix: unlit
+  - type: Item
+    size: Tiny
+    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    heldPrefix: unlit
+  - type: Edible
+    transferAmount: 5
+    delay: 30
+    forceFeedDelay: 50 # I'm pretty sure forcing someone to suck on something would take a while
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+          - ReagentId: Sugar
+            Quantity: 15
