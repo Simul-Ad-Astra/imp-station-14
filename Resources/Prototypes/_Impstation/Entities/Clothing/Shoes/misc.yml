@@ -33,3 +33,40 @@
     sprite: _Impstation/Clothing/Shoes/Misc/impishshoes.rsi
   - type: Clothing
     sprite: _Impstation/Clothing/Shoes/Misc/impishshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseInedible
+  id: ClothingShoesWheelies
+  name: advanced wheelies
+  description: Years apon years of research and development have finally paid off in this pair of state-of-the-art footwear. They can swap between being shoes and rollerscates. 
+  components:
+  - type: Sprite
+    sprite: 
+  - type: Clothing
+    sprite: 
+  - type: ComponentToggler
+    components:
+    - type: Skates
+      minimumSpeed: 20
+      acceleration: 5
+    - type: FootstepModifier
+      footstepSoundCollection:
+      collection: FootstepSkates
+      params:
+        variation: 0.08
+    - type: ClothingSpeedModifier
+      walkModifier: 1.2
+      sprintModifier: 1.2
+  - type: ItemToggle
+    soundActivate:
+      path: /Audio/Weapons/utilityknifeopen.ogg
+    soundDeactivate:
+      path: /Audio/Weapons/utilityknifeclose.ogg
+  - type: Appearance
+  - type: ToggleableVisuals
+    spriteLayer: engaged 
+    clothingVisuals:
+      feet: 
+      - state: equipped-feet-engaged
+  - type: UseDelay
+    delay: 0.2
