@@ -41,9 +41,9 @@
   description: Years apon years of research and development have finally paid off in this pair of state-of-the-art footwear. They can swap between being shoes and rollerscates. 
   components:
   - type: Sprite
-    sprite: 
+    sprite: _Impstation/Clothing/Shoes/Misc/angelsandals.rsi # placeholder
   - type: Clothing
-    sprite: 
+    sprite: _Impstation/Clothing/Shoes/Misc/angelsandals.rsi
   - type: ComponentToggler
     components:
     - type: Skates
