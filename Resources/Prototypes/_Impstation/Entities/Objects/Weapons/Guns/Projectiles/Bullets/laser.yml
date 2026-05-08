@@ -1,0 +1,22 @@
+- type: entity
+  id: BulletLaser
+  name: bullet (.45 laser)
+  parent: [ BasicHitscan ]
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HitscanBasicDamage
+    damage:
+      types:
+        Heat: 14
+  - type: Reflective
+  - type: FlyBySound
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+  - type: Physics
+    bodyType: Dynamic
+    linearDamping: 0
+    angularDamping: 0

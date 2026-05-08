@@ -1,0 +1,18 @@
+- type: entity
+  id: CartridgeLaser
+  name: cartridge (.45 laser)
+  parent: [ BaseCartridge, BaseSecurityContraband ]
+  components:
+  - type: Tag
+    tags:
+      - CartridgeMagnum
+      - Cartridge
+  - type: CartridgeAmmo
+    proto: BulletLaser
+  - type: Sprite
+    sprite: _Impstation/Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
