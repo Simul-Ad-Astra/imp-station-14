@@ -1746,3 +1746,1220 @@ book-text-capitol-english = CAPITAL by KARL MARX
     means of a social process. Who fails here to call to mind our good friend,
     Dogberry, who informs neighbour Seacoal, that, “To be a well-favoured man
     is the gift of fortune; but reading and writing comes by Nature.”37
+
+
+    Chapter 2: Exchange
+
+    It is plain that commodities cannot go to market and make exchanges of their
+    own account. We must, therefore, have recourse to their guardians, who are
+    also their owners. Commodities are things, and therefore without power of
+    resistance against man. If they are wanting in docility he can use force; in
+    other words, he can take possession of them.1 In order that these objects may
+    enter into relation with each other as commodities, their guardians must place
+    themselves in relation to one another, as persons whose will resides in those
+    objects, and must behave in such a way that each does not appropriate the
+    commodity of the other, and part with his own, except by means of an act
+    done by mutual consent. They must therefore, mutually recognise in each
+    other the rights of private proprietors. This juridical relation, which thus
+    expresses itself in a contract, whether such contract be part of a developed
+    legal system or not, is a relation between two wills, and is but the reflex of the
+    real economic relation between the two. It is this economic relation that
+    determines the subject-matter comprised in each such juridical act.2
+    The persons exist for one another merely as representatives of, and, therefore.
+    as owners of, commodities. In the course of our investigation we shall find, in
+    general, that the characters who appear on the economic stage are but the
+    personifications of the economic relations that exist between them.
+    What chiefly distinguishes a commodity from its owner is the fact, that it
+    looks upon every other commodity as but the form of appearance of its own
+    value. A born leveller and a cynic, it is always ready to exchange not only
+    soul, but body, with any and every other commodity, be the same more
+    repulsive than Maritornes herself. The owner makes up for this lack in the
+    commodity of a sense of the concrete, by his own five and more senses. His
+    commodity possesses for himself no immediate use-value. Otherwise, he
+    would not bring it to the market. It has use-value for others; but for himself its
+    only direct use-value is that of being a depository of exchange-value, and,
+    consequently, a means of exchange. 3 Therefore, he makes up his mind to
+    part with it for commodities whose value in use is of service to him. All
+    commodities are non-use-values for their owners, and use-values for their
+    non-owners. Consequently, they must all change hands. But this change of
+    hands is what constitutes their exchange, and the latter puts them in relation
+    with each other as values, and realises them as values. Hence commodities
+    must be realised as values before they can be realised as use-values.
+    On the other hand, they must show that they are use-values before they can be
+    realised as values. For the labour spent upon them counts effectively, only in
+    so far as it is spent in a form that is useful for others. Whether that labour is
+    useful for others, and its product consequently capable of satisfying the wants
+    of others, can be proved only by the act of exchange.
+    Every owner of a commodity wishes to part with it in exchange only for those
+    commodities whose use-value satisfies some want of his. Looked at in this
+    way, exchange is for him simply a private transaction. On the other hand, he
+    desires to realise the value of his commodity, to convert it into any other
+    suitable commodity of equal value, irrespective of whether his own
+    commodity has or has not any use-value for the owner of the other. From this
+    point of view, exchange is for him a social transaction of a general character.
+    But one and the same set of transactions cannot be simultaneously for all
+    owners of commodities both exclusively private and exclusively social and
+    general.
+    Let us look at the matter a little closer. To the owner of a commodity, every
+    other commodity is, in regard to his own, a particular equivalent, and
+    consequently his own commodity is the universal equivalent for all the others.
+    But since this applies to every owner, there is, in fact, no commodity acting as
+    universal equivalent, and the relative value of commodities possesses no
+    general form under which they can be equated as values and have the
+    magnitude of their values compared. So far, therefore, they do not confront
+    each other as commodities, but only as products or use-values. In their
+    difficulties our commodity owners think like Faust: “Im Anfang war die Tat.”
+    {"[“In the beginning was the deed.” – Goethe, Faust.]"} They therefore acted and
+    transacted before they thought. Instinctively they conform to the laws
+    imposed by the nature of commodities. They cannot bring their commodities
+    into relation as values, and therefore as commodities, except by comparing
+    them with some one other commodity as the universal equivalent. That we
+    saw from the analysis of a commodity. But a particular commodity cannot
+    become the universal equivalent except by a social act. The social action
+    therefore of all other commodities, sets apart the particular commodity in
+    which they all represent their values. Thereby the bodily form of this
+    commodity becomes the form of the socially recognised universal equivalent.
+    To be the universal equivalent, becomes, by this social process, the specific
+    function of the commodity thus excluded by the rest. Thus it becomes –
+    money. “Illi unum consilium habent et virtutem et potestatem suam bestiae
+    tradunt. Et ne quis possit emere aut vendere, nisi qui habet characterem aut
+    nomen bestiae aut numerum nominis ejus.” [“These have one mind, and shall
+    give their power and strength unto the beast.” Revelations, 17:13; “And that
+    no man might buy or sell, save he that had the mark, or the name of the beast,
+    or the number of his name.” Revelations, 13:17.] (Apocalypse.)
+    Money is a crystal formed of necessity in the course of the exchanges,
+    whereby different products of labour are practically equated to one another
+    and thus by practice converted into commodities. The historical progress and
+    extension of exchanges develops the contrast, latent in commodities, between
+    use-value and value. The necessity for giving an external expression to this
+    contrast for the purposes of commercial intercourse, urges on the
+    establishment of an independent form of value, and finds no rest until it is
+    once for all satisfied by the differentiation of commodities into commodities
+    and money. At the same rate, then, as the conversion of products into
+    commodities is being accomplished, so also is the conversion of one special
+    commodity into money.4
+    The direct barter of products attains the elementary form of the relative
+    expression of value in one respect, but not in another. That form is x
+    Commodity A = y Commodity B. The form of direct barter is x use-value A =
+    y use-value B.5 The articles A and B in this case are not as yet commodities,
+    but become so only by the act of barter. The first step made by an object of
+    utility towards acquiring exchange-value is when it forms a non-use-value for
+    its owner, and that happens when it forms a superfluous portion of some
+    article required for his immediate wants. Objects in themselves are external to
+    man, and consequently alienable by him. In order that this alienation may be
+    reciprocal, it is only necessary for men, by a tacit understanding, to treat each
+    other as private owners of those alienable objects, and by implication as
+    independent individuals. But such a state of reciprocal independence has no
+    existence in a primitive society based on property in common, whether such a
+    society takes the form of a patriarchal family, an ancient Indian community,
+    or a Peruvian Inca State. The exchange of commodities, therefore, first begins
+    on the boundaries of such communities, at their points of contact with other
+    similar communities, or with members of the latter. So soon, however, as
+    products once become commodities in the external relations of a community,
+    they also, by reaction, become so in its internal intercourse. The proportions
+    in which they are exchangeable are at first quite a matter of chance. What
+    makes them exchangeable is the mutual desire of their owners to alienate
+    them. Meantime the need for foreign objects of utility gradually establishes
+    itself. The constant repetition of exchange makes it a normal social act. In the
+    course of time, therefore, some portion at least of the products of labour must
+    be produced with a special view to exchange. From that moment the
+    distinction becomes firmly established between the utility of an object for the
+    purposes of consumption, and its utility for the purposes of exchange. Its use-
+    value becomes distinguished from its exchange-value. On the other hand, the
+    quantitative proportion in which the articles are exchangeable, becomes
+    dependent on their production itself. Custom stamps them as values with
+    definite magnitudes.
+    In the direct barter of products, each commodity is directly a means of
+    exchange to its owner, and to all other persons an equivalent, but that only in
+    so far as it has use-value for them. At this stage, therefore, the articles
+    exchanged do not acquire a value-form independent of their own use-value, or
+    of the individual needs of the exchangers. The necessity for a value-form
+    grows with the increasing number and variety of the commodities exchanged.
+    The problem and the means of solution arise simultaneously. Commodity-
+    owners never equate their own commodities to those of others, and exchange
+    them on a large scale, without different kinds of commodities belonging to
+    different owners being exchangeable for, and equated as values to, one and the
+    same special article. Such last-mentioned article, by becoming the equivalent
+    of various other commodities, acquires at once, though within narrow limits,
+    the character of a general social equivalent. This character comes and goes
+    with the momentary social acts that called it into life. In turns and transiently
+    it attaches itself first to this and then to that commodity. But with the
+    development of exchange it fixes itself firmly and exclusively to particular
+    sorts of commodities, and becomes crystallised by assuming the money-form.
+    The particular kind of commodity to which it sticks is at first a matter of
+    accident. Nevertheless there are two circumstances whose influence is
+    decisive. The money-form attaches itself either to the most important articles
+    of exchange from outside, and these in fact are primitive and natural forms in
+    which the exchange-value of home products finds expression; or else it
+    attaches itself to the object of utility that forms, like cattle, the chief portion of
+    indigenous alienable wealth. Nomad races are the first to develop the money-
+    form, because all their worldly goods consist of moveable objects and are
+    therefore directly alienable; and because their mode of life, by continually
+    bringing them into contact with foreign communities, solicits the exchange of
+    products. Man has often made man himself, under the form of slaves, serve as
+    the primitive material of money, but has never used land for that purpose.
+    Such an idea could only spring up in a bourgeois society already well
+    developed. It dates from the last third of the 17th century, and the first attempt
+    to put it in practice on a national scale was made a century afterwards, during
+    the French bourgeois revolution.
+    In proportion as exchange bursts its local bonds, and the value of commodities
+    more and more expands into an embodiment of human labour in the abstract,
+    in the same proportion the character of money attaches itself to commodities
+    that are by Nature fitted to perform the social function of a universal
+    equivalent. Those commodities are the precious metals.
+    The truth of the proposition that, “although gold and silver are not by Nature
+    money, money is by Nature gold and silver,”6 is shown by the fitness of the
+    physical properties of these metals for the functions of money.7 Up to this
+    point, however, we are acquainted only with one function of money, namely,
+    to serve as the form of manifestation of the value of commodities, or as the
+    material in which the magnitudes of their values are socially expressed. An
+    adequate form of manifestation of value, a fit embodiment of abstract,
+    undifferentiated, and therefore equal human labour, that material alone can be
+    whose every sample exhibits the same uniform qualities. On the other hand,
+    since the difference between the magnitudes of value is purely quantitative,
+    the money commodity must be susceptible of merely quantitative differences,
+    must therefore be divisible at will, and equally capable of being reunited.
+    Gold and silver possess these properties by Nature.
+    The use-value of the money-commodity becomes two-fold. In addition to its
+    special use-value as a commodity (gold, for instance, serving to stop teeth, to
+    form the raw material of articles of luxury, &c.), it acquires a formal use-
+    value, originating in its specific social function.
+    Since all commodities are merely particular equivalents of money, the latter
+    being their universal equivalent, they, with regard to the latter as the universal
+    commodity, play the parts of particular commodities. 8
+    We have seen that the money-form is but the reflex, thrown upon one single
+    commodity, of the value relations between all the rest. That money is a
+    commodity9 is therefore a new discovery only for those who, when they
+    analyse it, start from its fully developed shape. The act of exchange gives to
+    the commodity converted into money, not its value, but its specific value-
+    form. By confounding these two distinct things some writers have been led to
+    hold that the value of gold and silver is imaginary.10 The fact that money can,
+    in certain functions, be replaced by mere symbols of itself, gave rise to that
+    other mistaken notion, that it is itself a mere symbol. Nevertheless under this
+    error lurked a presentiment that the money-form of an object is not an
+    inseparable part of that object, but is simply the form under which certain
+    social relations manifest themselves. In this sense every commodity is a
+    symbol, since, in so far as it is value, it is only the material envelope of the
+    human labour spent upon it.11 But if it be declared that the social characters
+    assumed by objects, or the material forms assumed by the social qualities of
+    labour under the régime of a definite mode of production, are mere symbols, it
+    is in the same breath also declared that these characteristics are arbitrary
+    fictions sanctioned by the so-called universal consent of mankind. This suited
+    the mode of explanation in favour during the 18th century. Unable to account
+    for the origin of the puzzling forms assumed by social relations between man
+    and man, people sought to denude them of their strange appearance by
+    ascribing to them a conventional origin.
+    It has already been remarked above that the equivalent form of a commodity
+    does not imply the determination of the magnitude of its value. Therefore,
+    although we may be aware that gold is money, and consequently directly
+    exchangeable for all other commodities, yet that fact by no means tells how
+    much 10 lbs., for instance, of gold is worth. Money, like every other
+    commodity, cannot express the magnitude of its value except relatively in
+    other commodities. This value is determined by the labour-time required for
+    its production, and is expressed by the quantity of any other commodity that
+    costs the same amount of labour-time.12 Such quantitative determination of
+    its relative value takes place at the source of its production by means of barter.
+    When it steps into circulation as money, its value is already given. In the last
+    decades of the 17th century it had already been shown that money is a
+    commodity, but this step marks only the infancy of the analysis. The difficulty
+    lies, not in comprehending that money is a commodity, but in discovering
+    how, why, and by what means a commodity becomes money.13
+    We have already seen, from the most elementary expression of value, x
+    commodity A = y commodity B, that the object in which the magnitude of the
+    value of another object is represented, appears to have the equivalent form
+    independently of this relation, as a social property given to it by Nature. We
+    followed up this false appearance to its final establishment, which is complete
+    so soon as the universal equivalent form becomes identified with the bodily
+    form of a particular commodity, and thus crystallised into the money-form.
+    What appears to happen is, not that gold becomes money, in consequence of
+    all other commodities expressing their values in it, but, on the contrary, that
+    all other commodities universally express their values in gold, because it is
+    money. The intermediate steps of the process vanish in the result and leave no
+    trace behind. Commodities find their own value already completely
+    represented, without any initiative on their part, in another commodity
+    existing in company with them. These objects, gold and silver, just as they
+    come out of the bowels of the earth, are forthwith the direct incarnation of all
+    human labour. Hence the magic of money. In the form of society now under
+    consideration, the behaviour of men in the social process of production is
+    purely atomic. Hence their relations to each other in production assume a
+    material character independent of their control and conscious individual
+    action. These facts manifest themselves at first by products as a general rule
+    taking the form of commodities. We have seen how the progressive
+    development of a society of commodity-producers stamps one privileged
+    commodity with the character of money. Hence the riddle presented by money
+    is but the riddle presented by commodities; only it now strikes us in its most
+    glaring form.
+
+
+    Chapter 3: Money, Or the Circulation of Commodities
+
+    Section 1: The Measure of Values
+    Throughout this work, I assume, for the sake of simplicity, gold as the money-
+    commodity.
+    The first chief function of money is to supply commodities with the material
+    for the expression of their values, or to represent their values as magnitudes of
+    the same denomination, qualitatively equal, and quantitatively comparable. It
+    thus serves as a universal measure of value. And only by virtue of this
+    function does gold, the equivalent commodity par excellence, become money.
+    It is not money that renders commodities commensurable. Just the contrary. It
+    is because all commodities, as values, are realised human labour, and
+    therefore commensurable, that their values can be measured by one and the
+    same special commodity, and the latter be converted into the common
+    measure of their values, i.e., into money. Money as a measure of value, is the
+    phenomenal form that must of necessity be assumed by that measure of value
+    which is immanent in commodities, labour-time.1
+    The expression of the value of a commodity in gold – x commodity A = y
+    money-commodity – is its money-form or price. A single equation, such as 1
+    ton of iron = 2 ounces of gold, now suffices to express the value of the iron in
+    a socially valid manner. There is no longer any need for this equation to figure
+    as a link in the chain of equations that express the values of all other
+    commodities, because the equivalent commodity, gold, now has the character
+    of money. The general form of relative value has resumed its original shape of
+    simple or isolated relative value. On the other hand, the expanded expression
+    of relative value, the endless series of equations, has now become the form
+    peculiar to the relative value of the money-commodity. The series itself, too,
+    is now given, and has social recognition in the prices of actual commodities.
+    We have only to read the quotations of a price-list backwards, to find the
+    magnitude of the value of money expressed in all sorts of commodities. But
+    money itself has no price. In order to put it on an equal footing with all other
+    commodities in this respect, we should be obliged to equate it to itself as its
+    own equivalent.
+    The price or money-form of commodities is, like their form of value
+    generally, a form quite distinct from their palpable bodily form; it is,
+    therefore, a purely ideal or mental form. Although invisible, the value of iron,
+    linen and corn has actual existence in these very articles: it is ideally made
+    perceptible by their equality with gold, a relation that, so to say, exists only in
+    their own heads. Their owner must, therefore, lend them his tongue, or hang a
+    ticket on them, before their prices can be communicated to the outside world.2
+    Since the expression of the value of commodities in gold is a merely ideal act,
+    we may use for this purpose imaginary or ideal money. Every trader knows,
+    that he is far from having turned his goods into money, when he has expressed
+    their value in a price or in imaginary money, and that it does not require the
+    least bit of real gold, to estimate in that metal millions of pounds’ worth of
+    goods. When, therefore, money serves as a measure of value, it is employed
+    only as imaginary or ideal money. This circumstance has given rise to the
+    wildest theories.3 But, although the money that performs the functions of a
+    measure of value is only ideal money, price depends entirely upon the actual
+    substance that is money. The value, or in other words, the quantity of human
+    labour contained in a ton of iron, is expressed in imagination by such a
+    quantity of the money-commodity as contains the same amount of labour as
+    the iron. According, therefore, as the measure of value is gold, silver, or
+    copper, the value of the ton of iron will be expressed by very different prices,
+    or will be represented by very different quantities of those metals respectively.
+    If, therefore, two different commodities, such as gold and silver, are
+    simultaneously measures of value, all commodities have two prices – one a
+    gold-price, the other a silver-price. These exist quietly side by side, so long as
+    the ratio of the value of silver to that of gold remains unchanged, say, at 15:1.
+    Every change in their ratio disturbs the ratio which exists between the gold-
+    prices and the silver-prices of commodities, and thus proves, by facts, that a
+    double standard of value is inconsistent with the functions of a standard. 4
+    Commodities with definite prices present themselves under the form: a
+    commodity A = x gold; b commodity B = z gold; c commodity C = y gold,
+    &c., where a, b, c, represent definite quantities of the commodities A, B, C
+    and x, z, y, definite quantities of gold. The values of these commodities are,
+    therefore, changed in imagination into so many different quantities of gold.
+    Hence, in spite of the confusing variety of the commodities themselves, their
+    values become magnitudes of the same denomination, gold-magnitudes. They
+    are now capable of being compared with each other and measured, and the
+    want becomes technically felt of comparing them with some fixed quantity of
+    gold as a unit measure. This unit, by subsequent division into aliquot parts,
+    becomes itself the standard or scale. Before they become money, gold, silver,
+    and copper already possess such standard measures in their standards of
+    weight, so that, for example, a pound weight, while serving as the unit, is, on
+    the one hand, divisible into ounces, and, on the other, may be combined to
+    make up hundredweights.5 It is owing to this that, in all metallic currencies,
+    the names given to the standards of money or of price were originally taken
+    from the pre-existing names of the standards of weight.
+    As measure of Value, and as standard of price, money has two entirely
+    distinct functions to perform. It is the measure of value inasmuch as it is the
+    socially recognised incarnation of human labour; it is the standard of price
+    inasmuch as it is a fixed weight of metal. As the measure of value it serves to
+    convert the values of all the manifold commodities into prices, into imaginary
+    quantities of gold; as the standard of price it measures those quantities of gold.
+    The measure of values measures commodities considered as values; the
+    standard of price measures, on the contrary, quantities of gold by a unit
+    quantity of gold, not the value of one quantity of gold by the weight of
+    another. In order to make gold a standard of price, a certain weight must be
+    fixed upon as the unit. In this case, as in all cases of measuring quantities of
+    the same denomination, the establishment of an unvarying unit of measure is
+    all-important. Hence, the less the unit is subject to variation, so much the
+    better does the standard of price fulfil its office. But only in so far as it is itself
+    a product of labour, and, therefore, potentially variable in value, can gold
+    serve as a measure of value. 6
+    It is, in the first place, quite clear that a change in the value of gold does not,
+    in any way, affect its function as a standard of price. No matter how this value
+    varies, the proportions between the values of different quantities of the metal
+    remain constant. However great the fall in its value, 12 ounces of gold still
+    have 12 times the value of 1 ounce; and in prices, the only thing considered is
+    the relation between different quantities of gold. Since, on the other hand, no
+    rise or fall in the value of an ounce of gold can alter its weight, no alteration
+    can take place in the weight of its aliquot parts. Thus gold always renders the
+    same service as an invariable standard of price, however much its value may
+    vary.
+    In the second place, a change in the value of gold does not interfere with its
+    functions as a measure of value. The change affects all commodities
+    simultaneously, and, therefore, caeteris paribus, leaves their relative values
+    inter se, unaltered, although those values are now expressed in higher or lower
+    gold-prices.
+    Just as when we estimate the value of any commodity by a definite quantity of
+    the use-value of some other commodity, so in estimating the value of the
+    former in gold, we assume nothing more than that the production of a given
+    quantity of gold costs, at the given period, a given amount of labour. As
+    regards the fluctuations of prices generally, they are subject to the laws of
+    elementary relative value investigated in a former chapter.
+    A general rise in the prices of commodities can result only, either from a rise
+    in their values – the value of money remaining constant – or from a fall in the
+    value of money, the values of commodities remaining constant. On the other
+    hand, a general fall in prices can result only, either from a fall in the values of
+    commodities – the value of money remaining constant – or from a rise in the
+    value of money, the values of commodities remaining constant. It therefore by
+    no means follows, that a rise in the value of money necessarily implies a
+    proportional fall in the prices of commodities; or that a fall in the value of
+    money implies a proportional rise in prices. Such change of price holds good
+    only in the case of commodities whose value remains constant. With those,
+    for example, whose value rises, simultaneously with, and proportionally to,
+    that of money, there is no alteration in price. And if their value rise either
+    slower or faster than that of money, the fall or rise in their prices will be
+    determined by the difference between the change in their value and that of
+    money; and so on.
+    Let us now go back to the consideration of the price-form.
+    By degrees there arises a discrepancy between the current money-names of
+    the various weights of the precious metal figuring as money, and the actual
+    weights which those names originally represented. This discrepancy is the
+    result of historical causes, among which the chief are: – (1) The importation
+    of foreign money into an imperfectly developed community. This happened in
+    Rome in its early days, where gold and silver coins circulated at first as
+    foreign commodities. The names of these foreign coins never coincide with
+    those of the indigenous weights. (2) As wealth increases, the less precious
+    metal is thrust out by the more precious from its place as a measure of value,
+    copper by silver, silver by gold, however much this order of sequence may be
+    in contradiction with poetical chronology. 7The word pound, for instance, was
+    the money-name given to an actual pound weight of silver. When gold
+    replaced silver as a measure of value, the same name was applied according to
+    the ratio between the values of silver and gold, to perhaps 1-15th of a pound
+    of gold. The word pound, as a money-name, thus becomes differentiated from
+    the same word as a weight-name.8 (3) The debasing of money carried on for
+    centuries by kings and princes to such an extent that, of the original weights
+    of the coins, nothing in fact remained but the names.9
+    These historical causes convert the separation of the money-name from the
+    weight-name into an established habit with the community. Since the standard
+    of money is on the one hand purely conventional, and must on the other hand
+    find general acceptance, it is in the end regulated by law. A given weight of
+    one of the precious metals, an ounce of gold, for instance, becomes officially
+    divided into aliquot parts, with legally bestowed names, such as pound, dollar,
+    &c. These aliquot parts, which thenceforth serve as units of money, are then
+    subdivided into other aliquot parts with legal names, such as shilling, penny,
+    &c.10 But, both before and after these divisions are made, a definite weight of
+    metal is the standard of metallic money. The sole alteration consists in the
+    subdivision and denomination.
+    The prices, or quantities of gold, into which the values of commodities are
+    ideally changed, are therefore now expressed in the names of coins, or in the
+    legally valid names of the subdivisions of the gold standard. Hence, instead of
+    saying: A quarter of wheat is worth an ounce of gold; we say, it is worth £3
+    17s. 10 1/2d. In this way commodities express by their prices how much they
+    are worth, and money serves as money of account whenever it is a question of
+    fixing the value of an article in its money-form. 11
+    The name of a thing is something distinct from the qualities of that thing. I
+    know nothing of a man, by knowing that his name is Jacob. In the same way
+    with regard to money, every trace of a value-relation disappears in the names
+    pound, dollar, franc, ducat, &c. The confusion caused by attributing a hidden
+    meaning to these cabalistic signs is all the greater, because these money-
+    names express both the values of commodities, and, at the same time, aliquot
+    parts of the weight of the metal that is the standard of money.12 On the other
+    hand, it is absolutely necessary that value, in order that it may be
+    distinguished from the varied bodily forms of commodities, should assume
+    this material and unmeaning, but, at the same time, purely social form. 13
+    Price is the money-name of the labour realised in a commodity. Hence the
+    expression of the equivalence of a commodity with the sum of money
+    constituting its price, is a tautology14, just as in general the expression of the
+    relative value of a commodity is a statement of the equivalence of two
+    commodities. But although price, being the exponent of the magnitude of a
+    commodity’s value, is the exponent of its exchange-ratio with money, it does
+    not follow that the exponent of this exchange-ratio is necessarily the exponent
+    of the magnitude of the commodity’s value. Suppose two equal quantities of
+    socially necessary labour to be respectively represented by 1 quarter of wheat
+    and £2 (nearly 1/2 oz. of gold), £2 is the expression in money of the
+    magnitude of the value of the quarter of wheat, or is its price. If now
+    circumstances allow of this price being raised to £3, or compel it to be
+    reduced to £1, then although £1 and £3 may be too small or too great properly
+    to express the magnitude of the wheat’s value; nevertheless they are its prices,
+    for they are, in the first place, the form under which its value appears, i.e.,
+    money; and in the second place, the exponents of its exchange-ratio with
+    money. If the conditions of production, in other words, if the productive
+    power of labour remain constant, the same amount of social labour-time must,
+    both before and after the change in price, be expended in the reproduction of a
+    quarter of wheat. This circumstance depends, neither on the will of the wheat
+    producer, nor on that of the owners of other commodities.
+    Magnitude of value expresses a relation of social production, it expresses the
+    connexion that necessarily exists between a certain article and the portion of
+    the total labour-time of society required to produce it. As soon as magnitude
+    of value is converted into price, the above necessary relation takes the shape
+    of a more or less accidental exchange-ratio between a single commodity and
+    another, the money-commodity. But this exchange-ratio may express either
+    the real magnitude of that commodity’s value, or the quantity of gold
+    deviating from that value, for which, according to circumstances, it may be
+    parted with. The possibility, therefore, of quantitative incongruity between
+    price and magnitude of value, or the deviation of the former from the latter, is
+    inherent in the price-form itself. This is no defect, but, on the contrary,
+    admirably adapts the price-form to a mode of production whose inherent laws
+    impose themselves only as the mean of apparently lawless irregularities that
+    compensate one another.
+    The price-form, however, is not only compatible with the possibility of a
+    quantitative incongruity between magnitude of value and price, i.e., between
+    the former and its expression in money, but it may also conceal a qualitative
+    inconsistency, so much so, that, although money is nothing but the value-form
+    of commodities, price ceases altogether to express value. Objects that in
+    themselves are no commodities, such as conscience, honour, &c., are capable
+    of being offered for sale by their holders, and of thus acquiring, through their
+    price, the form of commodities. Hence an object may have a price without
+    having value. The price in that case is imaginary, like certain quantities in
+    mathematics. On the other hand, the imaginary price-form may sometimes
+    conceal either a direct or indirect real value-relation; for instance, the price of
+    uncultivated land, which is without value, because no human labour has been
+    incorporated in it.
+    Price, like relative value in general, expresses the value of a commodity (e.g.,
+    a ton of iron), by stating that a given quantity of the equivalent (e.g., an ounce
+    of gold), is directly exchangeable for iron. But it by no means states the
+    converse, that iron is directly exchangeable for gold. In order, therefore, that a
+    commodity may in practice act effectively as exchange-value, it must quit its
+    bodily shape, must transform itself from mere imaginary into real gold,
+    although to the commodity such transubstantiation may be more difficult than
+    to the Hegelian “concept,” the transition from “necessity” to “freedom,” or to
+    a lobster the casting of his shell, or to Saint Jerome the putting off of the old
+    Adam.15 Though a commodity may, side by side with its actual form (iron,
+    for instance), take in our imagination the form of gold, yet it cannot at one and
+    the same time actually be both iron and gold. To fix its price, it suffices to
+    equate it to gold in imagination. But to enable it to render to its owner the
+    service of a universal equivalent, it must be actually replaced by gold. If the
+    owner of the iron were to go to the owner of some other commodity offered
+    for exchange, and were to refer him to the price of the iron as proof that it was
+    already money, he would get the same answer as St. Peter gave in heaven to
+    Dante, when the latter recited the creed –
+    “Assad bene e trascorsa
+    D’esta moneta gia la lega e’l peso,
+    Ma dimmi se tu l’hai nella tua borsa.”
+    A price therefore implies both that a commodity is exchangeable for money,
+    and also that it must be so exchanged. On the other hand, gold serves as an
+    ideal measure of value, only because it has already, in the process of
+    exchange, established itself as the money-commodity. Under the ideal
+    measure of values there lurks the hard cash
+
+    that as regards the commodity consists of two processes of an antithetical
+    character, is, when considered as the movement of the money, always one and
+    the same process, a continued change of places with ever fresh commodities.
+    Hence the result brought about by the circulation of commodities, namely, the
+    replacing of one commodity by another, takes the appearance of having been
+    eﬀected not by means of the change of form of the commodities but rather by
+    the money acting as a medium of circulation, by an action that circulates
+    commodities, to all appearance motionless in themselves, and transfers them
+    from hands in which they are non-use-values, to hands in which they are use-
+    values; and that in a direction constantly opposed to the direction of the
+    money. The latter is continually withdrawing commodities from circulation
+    and stepping into their places, and in thus way continually moving further and
+    further from its starting-point. Hence although the movement of the money is
+    merely the expression of the circulation of commodities, yet the contrary
+    appears to be the actual fact, and the circulation of commodities seems to be
+    the result of the movement of the money.28
+    Again, money functions as a means of circulation only because in it the values
+    of commodities have independent reality. Hence its movement, as the medium
+    of circulation, is, in fact, merely the movement of commodities while
+    changing their forms. This fact must therefore make itself plainly visible in
+    the currency of money. Thus the linen for instance, ﬁrst of all changes its
+    commodity-form into its money-form. The second term of its ﬁrst
+    metamorphosis, C–M, the money form, then becomes the ﬁrst term of its ﬁnal
+    metamorphosis, M–C, its re-conversion into the Bible. But each of these two
+    changes of form is accomplished by an exchange between commodity and
+    money, by their reciprocal displacement. The same pieces of coin come into
+    the seller’s hand as the alienated form of the commodity and leave it as the
+    absolutely alienable form of the commodity. They are displaced twice. The
+    ﬁrst metamorphosis of the linen puts these coins into the weaver’s pocket, the
+    second draws them out of it. The two inverse changes undergone by the same
+    commodity are reﬂected in the displacement, twice repeated, but in opposite
+    directions, of the same pieces of coin.
+    If, on the contrary, only one phase of the metamorphosis is gone through, if
+    there are only sales or only purchases, then a given piece of money changes
+    its place only once. Its second change of place always expresses the second
+    metamorphosis of the commodity, its re-conversion from money. The
+    frequent repetition of the displacement of the same coins reﬂects not only the
+    series of metamorphoses that a single commodity has gone through, but also
+    the intertwining of the innumerable metamorphoses in the world of
+    commodities in general. It is a matter of course, that all this is applicable to
+    the simple circulation of commodities alone, the only form that we are now
+    considering.
+    Every commodity, when it ﬁrst steps into circulation, and undergoes its ﬁrst
+    change of form, does so only to fall out of circulation again and to be replaced
+    by other commodities. Money, on the contrary, as the medium of circulation,
+    keeps continually within the sphere of circulation, and moves about in it. The
+    question therefore arises, how much money this sphere constantly absorbs?
+    In a given country there take place every day at the same time, but in diﬀerent
+    localities, numerous one-sided metamorphoses of commodities, or, in other
+    words, numerous sales and numerous purchases. The commodities are
+    equated beforehand in imagination, by their prices, to deﬁnite quantities of
+    money. And since, in the form of circulation now under consideration, money
+    and commodities always come bodily face to face, one at the positive pole of
+    purchase, the other at the negative pole of sale, it is clear that the amount of
+    the means of circulation required, is determined beforehand by the sum of the
+    prices of all these commodities. As a matter of fact, the money in reality
+    represents the quantity or sum of gold ideally expressed beforehand by the
+    sum of the prices of the commodities. The equality of these two sums is
+    therefore self-evident. We know, however, that, the values of commodities
+    remaining constant, their prices vary with the value of gold (the material of
+    money), rising in proportion as it falls, and falling in proportion as it rises.
+    Now if, in consequence of such a rise or fall in the value of gold, the sum of
+    the prices of commodities fall or rise, the quantity of money in currency must
+    fall or rise to the same extent. The change in the quantity of the circulating
+    medium is, in this case, it is true, caused by the money itself, yet not in virtue
+    of its function as a medium of circulation, but of its function as a measure of
+    value. First, the price of the commodities varies inversely as the value of the
+    money, and then the quantity of the medium of circulation varies directly as
+    the price of the commodities. Exactly the same thing would happen if, for
+    instance, instead of the value of gold falling, gold were replaced by silver as
+    the measure of value, or if, instead of the value of silver rising, gold were to
+    thrust silver out from being the measure of value. In the one case, more silver
+    would be current than gold was before; in the other case, less gold would be
+    current than silver was before. In each case the value of the material of
+    money, i.e., the value of the commodity that serves as the measure of value,
+    would have undergone a change, and therefore so, too, would the prices of
+    commodities which express their values in money, and so, too, would the
+    quantity of money current whose function it is to realise those prices. We have
+    already seen, that the sphere of circulation has an opening through which gold
+    (or the material of money generally) enters into it as a commodity with a
+    given value. Hence, when money enters on its functions as a measure of
+    value, when it expresses prices, its value is already determined. If now its
+    value fall, this fact is ﬁrst evidenced by a change in the prices of those
+    commodities that are directly bartered for the precious metals at the sources of
+    their production. The greater part of all other commodities, especially in the
+    imperfectly developed stages of civil society, will continue for a long time to
+    be estimated by the former antiquated and illusory value of the measure of
+    value. Nevertheless, one commodity infects another through their common
+    value-relation, so that their prices, expressed in gold or in silver, gradually
+    settle down into the proportions determined by their comparative values, until
+    ﬁnally the values of all commodities are estimated in terms of the new value
+    of the metal that constitutes money. This process is accompanied by the
+    continued increase in the quantity of the precious metals, an increase caused
+    by their streaming in to replace the articles directly bartered for them at their
+    sources of production. In proportion therefore as commodities in general
+    acquire their true prices, in proportion as their values become estimated
+    according to the fallen value of the precious metal, in the same proportion the
+    quantity of that metal necessary for realising those new prices is provided
+    beforehand. A one-sided observation of the results that followed upon the
+    discovery of fresh supplies of gold and silver, led some economists in the
+    17th, and particularly in the 18th century, to the false conclusion, that the
+    prices of commodities had gone up in consequence of the increased quantity
+    of gold and silver serving as means of circulation. Henceforth we shall
+    consider the value of gold to be given, as, in fact, it is momentarily, whenever
+    we estimate the price of a commodity.
+    On this supposition then, the quantity of the medium of circulation is
+    determined by the sum of the prices that have to be realised. If now we further
+    suppose the price of each commodity to be given, the sum of the prices clearly
+    depends on the mass of commodities in circulation. It requires but little
+    racking of brains to comprehend that if one quarter of wheat costs £2,100
+    quarters will cost £200, 200 quarters £400, and so on, that consequently the
+    quantity of money that changes place with the wheat, when sold, must
+    increase with the quantity of that wheat.
+    If the mass of commodities remain constant, the quantity of circulating money
+    varies with the ﬂuctuations in the prices of those commodities. It increases
+    and diminishes because the sum of the prices increases or diminishes in
+    consequence of the change of price. To produce this eﬀect, it is by no means
+    requisite that the prices of all commodities should rise or fall simultaneously.
+    A rise or a fall in the prices of a number of leading articles, is suﬃcient in the
+    one case to increase, in the other to diminish, the sum of the prices of all
+    commodities, and, therefore, to put more or less money in circulation.
+    Whether the change in the price correspond to an actual change of value in the
+    commodities, or whether it be the result of mere ﬂuctuations in market-prices,
+    the eﬀect on the quantity of the medium of circulation remains the same.
+    Suppose the following articles to be sold or partially metamorphosed
+    simultaneously in diﬀerent localities: say, one quarter of wheat, 20 yards of
+    linen, one Bible, and 4 gallons of brandy. If the price of each article be £2,
+    and the sum of the prices to be realised be consequently £8, it follows that £8
+    in money must go into circulation. If, on the other hand, these same articles
+    are links in the following chain of metamorphoses: 1 quarter of wheat – £2 –
+    20 yards of linen – £2 – 1 Bible – £2 – 4 gallons of brandy – £2, a chain that is
+    already well known to us, in that case the £2 cause the diﬀerent commodities
+    to circulate one after the other, and after realising their prices successively,
+    and therefore the sum of those prices, £8, they come to rest at last in the
+    pocket of the distiller. The £2 thus make four moves. This repeated change of
+    place of the same pieces of money corresponds to the double change in form
+    of the commodities, to their motion in opposite directions through two stages
+    of circulation. and to the interlacing of the metamorphoses of diﬀerent
+    commodities.29 These antithetic and complementary phases, of which the
+    process of metamorphosis consists, are gone through, not simultaneously, but
+    successively. Time is therefore required for the completion of the series.
+    Hence the velocity of the currency of money is measured by the number of
+    moves made by a given piece of money in a given time. Suppose the
+    circulation of the 4 articles takes a day. The sum of the prices to be realised in
+    the day is £8, the number of moves of the two pieces of money is four, and the
+    quantity of money circulating is £2. Hence, for a given interval of time during
+    the process of circulation, we have the following relation: the quantity of
+    money functioning as the circulating medium is equal to the sum of the prices
+    of the commodities divided by the number of moves made by coins of the
+    same denomination. This law holds generally.
+    The total circulation of commodities in a given country during a given period
+    is made up on the one hand of numerous isolated and simultaneous partial
+    metamorphoses, sales which are at the same time purchases, in which each
+    coin changes its place only once, or makes only one move; on the other hand,
+    of numerous distinct series of metamorphoses partly running side by side, and
+    partly coalescing with each other, in each of which series each coin makes a
+    number of moves, the number being greater or less according to
+    circumstances. The total number of moves made by all the circulating coins of
+    one denomination being given, we can arrive at the average number of moves
+    made by a single coin of that denomination, or at the average velocity of the
+    currency of money. The quantity of money thrown into the circulation at the
+    beginning of each day is of course determined by the sum of the prices of all
+    the commodities circulating simultaneously side by side. But once in
+    circulation, coins are, so to say, made responsible for one another. If the one
+    increase its velocity, the other either retards its own, or altogether falls out of
+    circulation; for the circulation can absorb only such a quantity of gold as
+    when multiplied by the mean number of moves made by one single coin or
+    element, is equal to the sum of the prices to be realised. Hence if the number
+    of moves made by the separate pieces increase, the total number of those
+    pieces in circulation diminishes. If the number of the moves diminish, the
+    total number of pieces increases. Since the quantity of money capable of
+    being absorbed by the circulation is given for a given mean velocity of
+    currency, all that is necessary in order to abstract a given number of
+    sovereigns from the circulation is to throw the same number of one-pound
+    notes into it, a trick well known to all bankers.
+    Just as the currency of money, generally considered, is but a reﬂex of the
+    circulation of commodities, or of the antithetical metamorphoses they
+    undergo, so, too, the velocity of that currency reﬂects the rapidity with which
+    commodities change their forms, the continued interlacing of one series of
+    metamorphoses with another, the hurried social interchange of matter, the
+    rapid disappearance of commodities from the sphere of circulation, and the
+    equally rapid substitution of fresh ones in their places. Hence, in the velocity
+    of the currency we have the ﬂuent unity of the antithetical and complementary
+    phases, the unity of the conversion of the useful aspect of commodities into
+    their value-aspect, and their re-conversion from the latter aspect to the former,
+    or the unity of the two processes of sale and purchase. On the other hand, the
+    retardation of the currency reﬂects the separation of these two processes into
+    isolated antithetical phases, reﬂects the stagnation in the change of form, and
+    therefore, in the social interchange of matter. The circulation itself, of course,
+    gives no clue to the origin of this stagnation; it merely puts in evidence the
+    phenomenon itself. The general public, who, simultaneously with the
+    retardation of the currency, see money appear and disappear less frequently at
+    the periphery of circulation, naturally attribute this retardation to a
+    quantitative deﬁciency in the circulating medium.30
+    The total quantity of money functioning during a given period as the
+    circulating medium, is determined, on the one hand, by the sum of the prices
+    of the circulating commodities, and on the other hand, by the rapidity with
+    which the antithetical phases of the metamorphoses follow one another. On
+    this rapidity depends what proportion of the sum of the prices can, on the
+    average, be realised by each single coin. But the sum of the prices of the
+    circulating commodities depends on the quantity, as well as on the prices, of
+    the commodities. These three factors, however, state of prices, quantity of
+    circulating commodities, and velocity of money-currency, are all variable.
+    Hence, the sum of the prices to be realised, and consequently the quantity of
+    the circulating medium depending on that sum, will vary with the numerous
+    variations of these three factors in combination. Of these variations we shall
+    consider those alone that have been the most important in the history of
+    prices.
+    While prices remain constant, the quantity of the circulating medium may
+    increase owing to the number of circulating commodities increasing, or to the
+    velocity of currency decreasing, or to a combination of the two. On the other
+    hand the quantity of the circulating medium may decrease with a decreasing
+    number of commodities, or with an increasing rapidity of their circulation.
+    With a general rise in the prices of commodities, the quantity of the
+    circulating medium will remain constant, provided the number of
+    commodities in circulation decrease proportionally to the increase in their
+    prices, or provided the velocity of currency increase at the same rate as prices
+    rise, the number of commodities in circulation remaining constant. The
+    quantity of the circulating medium may decrease, owing to the number of
+    commodities decreasing more rapidly; or to the velocity of currency
+    increasing more rapidly, than prices rise.
+    With a general fall in the prices of commodities, the quantity of the circulating
+    medium will remain constant, provided the number of commodities increase
+    proportionally to their fall in price, or provided the velocity of currency
+    decrease in the same proportion. The quantity of the circulating medium will
+    increase, provided the number of commodities increase quicker, or the
+    rapidity of circulation decrease quicker, than the prices fall.
+    The variations of the diﬀerent factors may mutually compensate each other, so
+    that notwithstanding their continued instability, the sum of the prices to be
+    realised and the quantity of money in circulation remain constant;
+    consequently, we ﬁnd, especially if we take long periods into consideration,
+    that the deviations from the average level, of the quantity of money current in
+    any country, are much smaller than we should at ﬁrst sight expect, apart of
+    course from excessive perturbations periodically arising from industrial and
+    commercial crises, or less frequently, from ﬂuctuations in the value of money.
+    The law, that the quantity of the circulating medium is determined by the sum
+    of the prices of the commodities circulating, and the average velocity of
+    currency31 may also be stated as follows: given the sum of the values of
+    commodities, and the average rapidity of their metamorphoses, the quantity of
+    precious metal current as money depends on the value of that precious metal.
+    The erroneous opinion that it is, on the contrary, prices that are determined by
+    the quantity of the circulating medium, and that the latter depends on the
+    quantity of the precious metals in a country;32 this opinion was based by
+    those who ﬁrst held it, on the absurd hypothesis that commodities are without
+    a price, and money without a value, when they ﬁrst enter into circulation, and
+    that, once in the circulation, an aliquot part of the medley of commodities is
+    exchanged for an aliquot part of the heap of precious metals.33
+    C. Coin and symbols of value
+    That money takes the shape of coin, springs from its function as the
+    circulating medium. The weight of gold represented in imagination by the
+    prices or money-names of commodities, must confront those commodities,
+    within the circulation, in the shape of coins or pieces of gold of a given
+    denomination. Coining, like the establishment of a standard of prices, is the
+    business of the State. The diﬀerent national uniforms worn at home by gold
+    and silver as coins, and doﬀed again in the market of the world, indicate the
+    separation between the internal or national spheres of the circulation of
+    commodities, and their universal sphere.
+    The only diﬀerence, therefore, between coin and bullion, is one of shape, and
+    gold can at any time pass from one form to the other. 34But no sooner does
+    coin leave the mint, than it immediately ﬁnds itself on the high-road to the
+    melting pot. During their currency, coins wear away, some more, others less.
+    Name and substance, nominal weight and real weight, begin their process of
+    separation. Coins of the same denomination become diﬀerent in value,
+    because they are diﬀerent in weight. The weight of gold ﬁxed upon as the
+    standard of prices, deviates from the weight that serves as the circulating
+    medium, and the latter thereby ceases any longer to be a real equivalent of the
+    commodities whose prices it realises. The history of coinage during the
+    middle ages and down into the 18th century, records the ever renewed
+    confusion arising from this cause. The natural tendency of circulation to
+    convert coins into a mere semblance of what they profess to be, into a symbol
+    of the weight of metal they are oﬃcially supposed to contain, is recognised by
+    modern legislation, which ﬁxes the loss of weight suﬃcient to demonetise a
+    gold coin, or to make it no longer legal tender.
+    The fact that the currency of coins itself eﬀects a separation between their
+    nominal and their real weight, creating a distinction between them as mere
+    pieces of metal on the one hand, and as coins with a deﬁnite function on the
+    other – this fact implies the latent possibility of replacing metallic coins by
+    tokens of some other material, by symbols serving the same purposes as coins.
+    The practical diﬃculties in the way of coining extremely minute quantities of
+    gold or silver, and the circumstance that at ﬁrst the less precious metal is used
+    as a measure of value instead of the-more precious, copper instead of silver,
+    silver instead of gold, and that the less precious circulates as money until
+    dethroned by the more precious – all these facts explain the parts historically
+    played by silver and copper tokens as substitutes for gold coins. Silver and
+    copper tokens take the place of gold in those regions of the circulation where
+    coins pass from hand to hand most rapidly, and are subject to the maximum
+    amount of wear and tear. This occurs where sales and purchases on a very
+    small scale are continually happening. In order to prevent these satellites from
+    establishing themselves permanently in the place of gold, positive enactments
+    determine the extent to which they must be compulsorily received as payment
+    instead of gold. The particular tracks pursued by the diﬀerent species of coin
+    in currency, run naturally into each other. The tokens keep company with
+    gold, to pay fractional parts of the smallest gold coin; gold is, on the one hand,
+    constantly pouring into retail circulation, and on the other hand is as
+    constantly being thrown out again by being changed into tokens.35
+    The weight of metal in the silver and copper tokens is arbitrarily ﬁxed by law.
+    When in currency, they wear away even more rapidly than gold coins. Hence
+    their functions are totally independent of their weight, and consequently of all
+    value. The function of gold as coin becomes completely independent of the
+    metallic value of that gold. Therefore things that are relatively without value,
+    such as paper notes, can serve as coins in its place. This purely symbolic
+    character is to a certain extent masked in metal tokens. In paper money it
+    stands out plainly. In fact, ce n’est que le premier pas qui coûte.
+    We allude here only to inconvertible paper money issued by the State and
+    having compulsory circulation. It has its immediate origin in the metallic
+    currency. Money based upon credit implies on the other hand conditions,
+    which, from our standpoint of the simple circulation of commodities, are as
+    yet totally unknown to us. But we may aﬃrm this much, that just as true paper
+    money takes its rise in the function of money as the circulating medium, so
+    money based upon credit takes root spontaneously in the function of money as
+    the means of payment.36
+    The State puts in circulation bits of paper on which their various
+    denominations, say £1, £5, &c., are printed. In so far as they actually take the
+    place of gold to the same amount, their movement is subject to the laws that
+    regulate the currency of money itself. A law peculiar to the circulation of
+    paper money can spring up only from the proportion in which that paper
+    money represents gold. Such a law exists; stated simply, it is as follows: the
+    issue of paper money must not exceed in amount the gold (or silver as the
+    case may be) which would actually circulate if not replaced by symbols. Now
+    the quantity of gold which the circulation can absorb, constantly ﬂuctuates
+    about a given level. Still, the mass of the circulating medium in a given
+    country never sinks below a certain minimum easily ascertained by actual
+    experience. The fact that this minimum mass continually undergoes changes
+    in its constituent parts, or that the pieces of gold of which it consists are being
+    constantly replaced by fresh ones, causes of course no change either in its
+    amount or in the continuity of its circulation. It can therefore be replaced by
+    paper symbols. If, on the other hand, all the conduits of circulation were to-
+    day ﬁlled with paper money to the full extent of their capacity for absorbing
+    money, they might to-morrow be overﬂowing in consequence of a ﬂuctuation
+    in the circulation of commodities. There would no longer be any standard. If
+    the paper money exceed its proper limit, which is the amount in gold coins of
+    the like denomination that can actually be current, it would, apart from the
+    danger of falling into general disrepute, represent only that quantity of gold,
+    which, in accordance with the laws of the circulation of commodities, is
+    required, and is alone capable of being represented by paper. If the quantity of
+    paper money issued be double what it ought to be, then, as a matter of fact, £1
+    would be the money-name not of 1/4 of an ounce, but of 1/8 of an ounce of
+    gold. The eﬀect would be the same as if an alteration had taken place in the
+    function of gold as a standard of prices. Those values that were previously
+    expressed by the price of £1 would now be expressed by the price of £2.
+    Paper money is a token representing gold or money. The relation between it
+    and the values of commodities is this, that the latter are ideally expressed in
+    the same quantities of gold that are symbolically represented by the paper.
+    Only in so far as paper money represents gold, which like all other
+    commodities has value, is it a symbol of value.37
+    Finally, some one may ask why gold is capable of being replaced by tokens
+    that have no value? But, as we have already seen, it is capable of being so
+    replaced only in so far as it functions exclusively as coin, or as the circulating
+    medium, and as nothing else. Now, money has other functions besides this
+    one, and the isolated function of serving as the mere circulating medium is not
+    necessarily the only one attached to gold coin, although this is the case with
+    those abraded coins that continue to circulate. Each piece of money is a mere
+    coin, or means of circulation, only so long as it actually circulates. But this is
+    just the case with that minimum mass of gold, which is capable of being
+    replaced by paper money. That mass remains constantly within the sphere of
+    circulation, continually functions as a circulating medium, and exists
+    exclusively for that purpose. Its movement therefore represents nothing but
+    the continued alternation of the inverse phases of the metamorphosis C–M–C,
+    phases in which commodities confront their value-forms, only to disappear
+    again immediately. The independent existence of the exchange-value of a
+    commodity is here a transient apparition, by means of which the commodity is
+    immediately replaced by another commodity. Hence, in this process which
+    continually makes money pass from hand to hand, the mere symbolical
+    existence of money suﬃces. Its functional existence absorbs, so to say, its
+    material existence. Being a transient and objective reﬂex of the prices of
+    commodities, it serves only as a symbol of itself, and is therefore capable of
+    being replaced by a token.38 One thing is, however, requisite; this token must
+    have an objective social validity of its own, and this the paper symbol
+    acquires by its forced currency. This compulsory action of the State can take
+    eﬀect only within that inner sphere of circulation which is coterminous with
+    the territories of the community, but it is also only within that sphere that
+    money completely responds to its function of being the circulating medium, or
+    becomes coin.
+
+    immovable, from coin into money.
+    With the very earliest development of the circulation of commodities, there is
+    also developed the necessity, and the passionate desire, to hold fast the
+    product of the ﬁrst metamorphosis. This product is the transformed shape of
+    the commodity, or its gold-chrysalis.39 Commodities are thus sold not for the
+    purpose of buying others, but in order to replace their commodity-form by
+    their money-form. From being the mere means of eﬀecting the circulation of
+    commodities, this change of form becomes the end and aim. The changed
+    form of the commodity is thus prevented from functioning as its
+    unconditionally alienable form, or as its merely transient money-form. The
+    money becomes petriﬁed into a hoard, and the seller becomes a hoarder of
+    money.
+    In the early stages of the circulation of commodities, it is the surplus use-
+    values alone that are converted into money. Gold and silver thus become of
+    themselves social expressions for superﬂuity or wealth. This naive form of
+    hoarding becomes perpetuated in those communities in which the traditional
+    mode of production is carried on for the supply of a ﬁxed and limited circle of
+    home wants. It is thus with the people of Asia, and particularly of the East
+    Indies. Vanderlint, who fancies that the prices of commodities in a country are
+    determined by the quantity of gold and silver to be found in it, asks himself
+    why Indian commodities are so cheap. Answer: Because the Hindus bury their
+    money. From 1602 to 1734, he remarks, they buried 150 millions of pounds
+    sterling of silver, which originally came from America to Europe.40 In the 10
+    years from 1856 to 1866, England exported to India and China £120,000,000
+    in silver, which had been received in exchange for Australian gold. Most of
+    the silver exported to China makes its way to India.
+    As the production of commodities further develops, every producer of
+    commodities is compelled to make sure of the nexus rerum or the social
+    pledge.41 His wants are constantly making themselves felt, and necessitate
+    the continual purchase of other people’s commodities, while the production
+    and sale of his own goods require time, and depend upon circumstances. In
+    order then to be able to buy without selling, he must have sold previously
+    without buying. This operation, conducted on a general scale, appears to
+    imply a contradiction. But the precious metals at the sources of their
+    production are directly exchanged for other commodities. And here we have
+    sales (by the owners of commodities) without purchases (by the owners of
+    gold or silver). 42And subsequent sales, by other producers, unfollowed by
+    purchases, merely bring about the distribution of the newly produced precious
+    metals among all the owners of commodities. In this way, all along the line of
+    exchange, hoards of gold and silver of varied extent are accumulated. With
+    the possibility of holding and storing up exchange-value in the shape of a
+    particular commodity, arises also the greed for gold. Along with the extension
+    of circulation, increases the power of money, that absolutely social form of
+    wealth ever ready for use. “Gold is a wonderful thing! Whoever possesses it is
+    lord of all he wants. By means of gold one can even get souls into Paradise.”
+    (Columbus in his letter from Jamaica, 1503.) Since gold does not disclose
+    what has been transformed into it, everything, commodity or not, is
+    convertible into gold. Everything becomes saleable and buyable. The
+    circulation becomes the great social retort into which everything is thrown, to
+    come out again as a gold-crystal. Not even are the bones of saints, and still
+    less are more delicate res sacrosanctae, extra commercium hominum able to
+    withstand this alchemy.43 Just as every qualitative diﬀerence between
+    commodities is extinguished in money, so money, on its side, like the radical
+    leveller that it is, does away with all distinctions.43a But money itself is a
+    commodity, an external object, capable of becoming the private property of
+    any individual. Thus social power becomes the private power of private
+    persons. The ancients therefore denounced money as subversive of the
+    economic and moral order of things.43b Modern society, which, soon after its
+    birth, pulled Plutus by the hair of his head from the bowels of the earth,44
+    greets gold as its Holy Grail, as the glittering incarnation of the very principle
+    of its own life.
+    A commodity, in its capacity of a use-value, satisﬁes a particular want, and is
+    a particular element of material wealth. But the value of a commodity
+    measures the degree of its attraction for all other elements of material wealth,
+    and therefore measures the social wealth of its owner. To a barbarian owner of
+    commodities, and even to a West-European peasant, value is the same as
+    value-form, and therefore, to him the increase in his hoard of gold and silver
+    is an increase in value. It is true that the value of money varies, at one time in
+    consequence of a variation in its own value, at another, in consequence of a
+    change in the values of commodities. But this, on the one hand, does not
+    prevent 200 ounces of gold from still containing more value than 100 ounces,
+    nor, on the other hand, does it hinder the actual metallic form of this article
+    from continuing to be the universal equivalent form of all other commodities,
+    and the immediate social incarnation of all human labour. The desire after
+    hoarding is in its very nature unsatiable. In its qualitative aspect, or formally
+    considered, money has no bounds to its eﬃcacy, i.e., it is the universal
+    representative of material wealth, because it is directly convertible into any
+    other commodity. But, at the same time, every actual sum of money is limited
+    in amount, and, therefore, as a means of purchasing, has only a limited
+    eﬃcacy. This antagonism between the quantitative limits of money and its
+    qualitative boundlessness, continually acts as a spur to the hoarder in his
+    Sisyphus-like labour of accumulating. It is with him as it is with a conqueror
+    who sees in every new country annexed, only a new boundary.
+    In order that gold may be held as money, and made to form a hoard, it must be
+    prevented from circulating, or from transforming itself into a means of
+    enjoyment. The hoarder, therefore, makes a sacriﬁce of the lusts of the ﬂesh to
+    his gold fetish. He acts in earnest up to the Gospel of abstention. On the other
+    hand, he can withdraw from circulation no more than what he has thrown into
+    it in the shape of commodities. The more he produces, the more he is able to
+    sell. Hard work, saving, and avarice are, therefore, his three cardinal virtues,
+    and to sell much and buy little the sum of his political economy.45
+    By the side of the gross form of a hoard, we ﬁnd also its aesthetic form in the
+    possession of gold and silver articles. This grows with the wealth of civil
+    society. “Soyons riches ou paraissons riches” (Diderot).
+    In this way there is created, on the one hand, a constantly extending market
+    for gold and silver, unconnected with their functions as money, and, on the
+    other hand, a latent source of supply, to which recourse is had principally in
+    times of crisis and social disturbance.
+    Hoarding serves various purposes in the economy of the metallic circulation.
+    Its ﬁrst function arises out of the conditions to which the currency of gold and
+    silver coins is subject. We have seen how, along with the continual
+    ﬂuctuations in the extent and rapidity of the circulation of commodities and in
+    their prices, the quantity of money current unceasingly ebbs and ﬂows. This
+    mass must, therefore, be capable of expansion and contraction. At one time
+    money must be attracted in order to act as circulating coin, at another,
+    circulating coin must be repelled in order to act again as more or less stagnant
+    money. In order that the mass of money, actually current, may constantly
+    saturate the absorbing power of the circulation, it is necessary that the
+    quantity of gold and silver in a country be greater than the quantity required to
+    function as coin. This condition is fulﬁlled by money taking the form of
+    hoards. These reserves serve as conduits for the supply or withdrawal of
+    money to or from the circulation, which in this way never overﬂows its
+    banks.46
+    B. Means of Payment
+    In the simple form of the circulation of commodities hitherto considered, we
+    found a given value always presented to us in a double shape, as a commodity
+    at one pole, as money at the opposite pole. The owners of commodities came
+    therefore into contact as the respective representatives of what were already
+    equivalents. But with the development of circulation, conditions arise under
+    which the alienation of commodities becomes separated, by an interval of
+    time, from the realisation of their prices. It will be suﬃcient to indicate the
+    most simple of these conditions. One sort of article requires a longer, another
+    a shorter time for its production. Again, the production of diﬀerent
+    commodities depends on diﬀerent seasons of the year. One sort of commodity
+    may be born on its own market place, another has to make a long journey to
+    market. Commodity-owner No. 1, may therefore be ready to sell, before No. 2
+    is ready to buy. When the same transactions are continually repeated between
+    the same persons, the conditions of sale are regulated in accordance with the
+    conditions of production. On the other hand, the use of a given commodity, of
+    a house, for instance, is sold (in common parlance, let) for a deﬁnite period.
+    Here, it is only at the end of the term that the buyer has actually received the
+    use-value of the commodity. He therefore buys it before he pays for it. The
+    vendor sells an existing commodity, the purchaser buys as the mere
+    representative of money, or rather of future money. The vendor becomes a
+    creditor, the purchaser becomes a debtor. Since the metamorphosis of
+    commodities, or the development of their value-form, appears here under a
+    new aspect, money also acquires a fresh function; it becomes the means of
+    payment.
+    The character of creditor, or of debtor, results here from the simple
+    circulation. The change in the form of that circulation stamps buyer and seller
+    with this new die. At ﬁrst, therefore, these new parts are just as transient and
+    alternating as those of seller and buyer, and are in turns played by the same
+    actors. But the opposition is not nearly so pleasant, and is far more capable of
+    crystallisation.47 The same characters can, however, be assumed
+    independently of the circulation of commodities. The class-struggles of the
+    ancient world took the form chieﬂy of a contest between debtors and
+    creditors, which in Rome ended in the ruin of the plebeian debtors. They were
+    displaced by slaves. In the middle ages the contest ended with the ruin of the
+    feudal debtors, who lost their political power together with the economic basis
+    on which it was established. Nevertheless, the money relation of debtor and
+    creditor that existed at these two periods reﬂected only the deeper-lying
+    antagonism between the general economic conditions of existence of the
+    classes in question.
+    Let us return to the circulation of commodities. The appearance of the two
+    equivalents, commodities and money, at the two poles of the process of sale,
+    has ceased to be simultaneous. The money functions now, ﬁrst as a measure
+    of value in the determination of the price of the commodity sold; the price
+    ﬁxed by the contract measures the obligation of the debtor, or the sum of
+    money that he has to pay at a ﬁxed date. Secondly, it serves as an ideal means
+    of purchase. Although existing only in the promise of the buyer to pay, it
+    causes the commodity to change hands. It is not before the day ﬁxed for
+    payment that the means of payment actually steps into circulation, leaves the
+    hand of the buyer for that of the seller. The circulating medium was
+    transformed into a hoard, because the process stopped short after the ﬁrst
+    phase, because the converted shape of the commodity, viz., the money, was
+    withdrawn from circulation. The means of payment enters the circulation, but
+    only after the commodity has left it. The money is no longer the means that
+    brings about the process. It only brings it to a close, by stepping in as the
+    absolute form of existence of exchange-value, or as the universal commodity.
+    The seller turned his commodity into money, in order thereby to satisfy some
+    want, the hoarder did the same in order to keep his commodity in its money-
+    shape, and the debtor in order to be able to pay; if he do not pay, his goods
+    will be sold by the sheriﬀ. The value-form of commodities, money, is
+    therefore now the end and aim of a sale, and that owing to a social necessity
+    springing out of the process of circulation itself.
+    The buyer converts money back into commodities before he has turned
+    commodities into money: in other words, he achieves the second
+    metamorphosis of commodities before the ﬁrst. The seller’s commodity
+    circulates, and realises its price, but only in the shape of a legal claim upon
+    money. It is converted into a use-value before it has been converted into
+    money. The completion of its ﬁrst metamorphosis follows only at a later
+    period.48
+    The obligations falling due within a given period, represent the sum of the
+    prices of the commodities, the sale of which gave rise to those obligations.
+    The quantity of gold necessary to realise this sum, depends, in the ﬁrst
+    instance, on the rapidity of currency of the means of payment. That quantity is
+    conditioned by two circumstances: ﬁrst the relations between debtors and
+    creditors form a sort of chain, in such a way that A, when he receives money
+    from his debtor B, straightway hands it over to C his creditor, and so on; the
+    second circumstance is the length of the intervals between the diﬀerent due-
+    days of the obligations. The continuous chain of payments, or retarded ﬁrst
+    metamorphoses, is essentially diﬀerent from that interlacing of the series of
+    metamorphoses which we considered on a former page. By the currency of
+    the circulating medium, the connexion between buyers and sellers, is not
+    merely expressed. This connexion is originated by, and exists in, the
+    circulation alone. Contrariwise, the movement of the means of payment
+    expresses a social relation that was in existence long before.
+    The fact that a number of sales take place simultaneously, and side by side,
+    limits the extent to which coin can be replaced by the rapidity of currency. On
+    the other hand, this fact is a new lever in economising the means of payment.
+    In proportion as payments are concentrated at one spot, special institutions
+    and methods are developed for their liquidation. Such in the middle ages were
+    the virements at Lyons. The debts due to A from B, to B from C, to C from A,
+    and so on, have only to be confronted with each other, in order to annul each
+    other to a certain extent like positive and negative quantities. There thus
+    remains only a single balance to pay. The greater the amount of the payments
+    concentrated, the less is this balance relatively to that amount, and the less is
+    the mass of the means of payment in circulation.
+    The function of money as the means of payment implies a contradiction
+    without a terminus medius. In so far as the payments balance one another,
+    money functions only ideally as money of account, as a measure of value. In
+    so far as actual payments have to be made, money does not serve as a
+    circulating medium, as a mere transient agent in the interchange of products,
+    but as the individual incarnation of social labour, as the independent form of
+    existence of exchange-value, as the universal commodity. This contradiction
+    comes to a head in those phases of industrial and commercial crises which are
+    known as monetary crises.49 Such a crisis occurs only where the ever-
+    lengthening chain of payments, and an artiﬁcial system of settling them, has
+    been fully developed. Whenever there is a general and extensive disturbance
+    of this mechanism, no matter what its cause, money becomes suddenly and
+    immediately transformed, from its merely ideal shape of money of account,
+    into hard cash. Profane commodities can no longer replace it. The use-value
+    of commodities becomes valueless, and their value vanishes in the presence of
+    its own independent form. On the eve of the crisis, the bourgeois, with the
+    self-suﬃciency that springs from intoxicating prosperity, declares money to
+    be a vain imagination. Commodities alone are money. But now the cry is
+    everywhere: money alone is a commodity! As the hart pants after fresh water,
+    so pants his soul after money, the only wealth.50 In a crisis, the antithesis
+    between commodities and their value-form, money, becomes heightened into
+    an absolute contradiction. Hence, in such events, the form under which money
+    appears is of no importance. The money famine continues, whether payments
+    have to be made in gold or in credit money such as bank-notes.51
+    If we now consider the sum total of the money current during a given period,
+    we shall ﬁnd that, given the rapidity of currency of the circulating medium
+    and of the means of payment, it is equal to the sum of the prices to be realised,
+    plus the sum of the payments falling due, minus the payments that balance
+    each other, minus ﬁnally the number of circuits in which the same piece of
+    coin serves in turn as means of circulation and of payment. Hence, even when
+    prices, rapidity of currency, and the extent of the economy in payments, are
+    given, the quantity of money current and the mass of commodities circulating
+    during a given period, such as a day, no longer correspond. Money that
+    represents commodities long withdrawn from circulation, continues to be
+    current. Commodities circulate, whose equivalent in money will not appear on
+    the scene till some future day. Moreover, the debts contracted each day, and
+    the payments falling due on the same day, are quite incommensurable
+    quantities.52
+    Credit-money springs directly out of the function of money as a means of
+    payment. Certiﬁcates of the debts owing for the purchased commodities
+    circulate for the purpose of transferring those debts to others. On the other
+    hand, to the same extent as the system of credit is extended, so is the function
+    of money as a means of payment. In that character it takes various forms
+    peculiar to itself under which it makes itself at home in the sphere of great
+    commercial transactions. Gold and silver coin, on the other hand, are mostly
+    relegated to the sphere of retail trade.53
+    When the production of commodities has suﬃciently extended itself, money
+    begins to serve as the means of payment beyond the sphere of the circulation
+    of commodities. It becomes the commodity that is the universal subject-matter
+    of all contracts.54 Rents, taxes, and such like payments are transformed from
+    payments in kind into money payments. To what extent this transformation
+    depends upon the general conditions of production, is shown, to take one
+    example, by the fact that the Roman Empire twice failed in its attempt to levy
+    all contributions in money. The unspeakable misery of the French agricultural
+    population under Louis XIV., a misery so eloquently denounced by
+    Boisguillebert, Marshal Vauban, and others, was due not only to the weight of
+    the taxes, but also to the conversion of taxes in kind into money taxes.55 In
+    Asia, on the other hand, the fact that state taxes are chieﬂy composed of rents
+    payable in kind, depends on conditions of production that are reproduced with
+    the regularity of natural phenomena. And this mode of payment tends in its
+    turn to maintain the ancient form of production. It is one of the secrets of the
+    conservation of the Ottoman Empire. If the foreign trade, forced upon Japan
+    by Europeans, should lead to the substitution of money rents for rents in kind,
+    it will be all up with the exemplary agriculture of that country. The narrow
+    economic conditions under which that agriculture is carried on, will be swept
+    away.
+    In every country, certain days of the year become by habit recognised settling
+    days for various large and recurrent payments. These dates depend, apart from
+    other revolutions in the wheel of reproduction, on conditions closely
+    connected with the seasons. They also regulate the dates for payments that
+    have no direct connexion with the circulation of commodities such as taxes,
+    rents, and so on. The quantity of money requisite to make the payments,
+    falling due on those dates all over the country, causes periodical, though
+    merely superﬁcial, perturbations in the economy of the medium of
+    payment.56
+    From the law of the rapidity of currency of the means of payment, it follows
+    that the quantity of the means of payment required for all periodical
+    payments, whatever their source, is in inverse 57proportion to the length of
+    their periods.58
+    The development of money into a medium of payment makes it necessary to
+    accumulate money against the dates ﬁxed for the payment of the sums owing.
+    While hoarding, as a distinct mode of acquiring riches, vanishes with the
+    progress of civil society, the formation of reserves of the means of payment
+    grows with that progress.
+    C. Universal Money
+    When money leaves the home sphere of circulation, it strips oﬀ the local garbs
+    which it there assumes, of a standard of prices, of coin, of tokens, and of a
+    symbol of value, and returns to its original form of bullion. In the trade
+    between the markets of the world, the value of commodities is expressed so as
+    to be universally recognised. Hence their independent value-form also, in
+    these cases, confronts them under the shape of universal money. It is only in
+    the markets of the world that money acquires to the full extent the character of
+    the commodity whose bodily form is also the immediate social incarnation of
+    human labour in the abstract. Its real mode of existence in this sphere
+    adequately corresponds to its ideal concept.
+    Within the sphere of home circulation, there can be but one commodity
+    which, by serving as a measure of value, becomes money. In the markets of
+    the world a double measure of value holds sway, gold and silver.59
+    Money of the world serves as the universal medium of payment, as the
+    universal means of purchasing, and as the universally recognised embodiment
+    of all wealth. Its function as a means of payment in the settling of
+    international balances is its chief one. Hence the watchword of the
+    mercantilists, balance of trade.60 Gold and silver serve as international
+    means of purchasing chieﬂy and necessarily in those periods when the
+    customary equilibrium in the interchange of products between diﬀerent
+    nations is suddenly disturbed. And lastly, it serves as the universally
+    recognised embodiment of social wealth, whenever the question is not of
+    buying or paying, but of transferring wealth from one country to another, and
+    whenever this transference in the form of commodities is rendered impossible,
+    either by special conjunctures in the markets or by the purpose itself that is
+    intended.61
+    Just as every country needs a reserve of money for its home circulation so,
+    too, it requires one for external circulation in the markets of the world. The
+    functions of hoards, therefore, arise in part out of the function of money, as
+    the medium of the home circulation and home payments, and in part out of its
+    function of money of the world.62 For this latter function, the genuine
+    money-commodity, actual gold and silver, is necessary. On that account, Sir
+    James Steuart, in order to distinguish them from their purely local substitutes,
+    calls gold and silver “money of the world.”
+    The current of the stream of gold and silver is a double one. On the one hand,
+    it spreads itself from its sources over all the markets of the world, in order to
+    become absorbed, to various extents, into the diﬀerent national spheres of
+    circulation, to ﬁll the conduits of currency, to replace abraded gold and silver
+    coins, to supply the material of articles of luxury, and to petrify into hoards.63
+    This ﬁrst current is started by the countries that exchange their labour, realised
+    in commodities, for the labour embodied in the precious metals by gold and
+    silver-producing countries. On the other hand, there is a continual ﬂowing
+    backwards and forwards of gold and silver between the diﬀerent national
+    spheres of circulation, a current whose motion depends on the ceaseless
+    ﬂuctuations in the course of exchange.64
+    Countries in which the bourgeois form of production is developed to a certain
+    extent, limit the hoards concentrated in the strong rooms of the banks to the
+    minimum required for the proper performance of their peculiar functions.65
+    Whenever these hoards are strikingly above their average level, it is, with
+    some exceptions, an indication of stagnation in the circulation of
+    commodities, of an interruption in the even ﬂow of their metamorphoses.66
+
