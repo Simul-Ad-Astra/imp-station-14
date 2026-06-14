@@ -193,3 +193,16 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleDecorativeDiagonal
+  graph: Girder
+  startNode: start
+  targetNode: shuttleDecorativeDiagonalWall
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

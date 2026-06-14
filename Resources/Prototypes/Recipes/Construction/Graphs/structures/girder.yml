@@ -393,6 +393,20 @@
             - tool: Welding
               doAfter: 4
 
+        - to: shuttleDecorativeDiagonalWall # imp
+          completed:
+            - !type:SnapToGrid
+          conditions:
+            - !type:EntityAnchored { }
+          steps:
+            - tool: Welding
+              doAfter: 1
+            - material: Plastic
+              amount: 2
+              doAfter: 1
+            - tool: Welding
+              doAfter: 4
+
         - to: girder
           completed:
             - !type:SnapToGrid
@@ -651,7 +665,6 @@
             - tool: Welding
               doAfter: 8
 
-
         - to: reinforcedGirder
           completed:
             - !type:SpawnPrototype
@@ -685,6 +698,20 @@
 
     - node: shuttleDecorativeWall # imp
       entity: WallShuttleDecorative
+      edges:
+        - to: reinforcedGirder
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetPlastic1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Cutting
+              doAfter: 5
+
+    - node: shuttleDecorativeDiagonalWall # imp
+      entity: WallShuttleDecorativeDiagonal
       edges:
         - to: reinforcedGirder
           completed:
