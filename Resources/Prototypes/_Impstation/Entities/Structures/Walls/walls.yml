@@ -406,3 +406,49 @@
     delay: 6
     fx: EffectRCDDeconstruct6
 
+- type: entity
+  parent: BaseWall
+  id: WallShuttleDecorative # for stations. for when you want the look of shuttle walls but not the mechanics (as much)
+  suffix: Decorative
+  name: decorative shuttle wall
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/shuttle.rsi
+  - type: Icon
+    sprite: Structures/Walls/shuttle.rsi
+    state: full
+  - type: WallReplacementMarker
+  - type: RCDDeconstructable
+    cost: 6
+    delay: 8
+    fx: EffectRCDDeconstruct8
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:ChangeConstructionNodeBehavior
+        node: girder
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: IconSmooth
+    key: walls
+    base: state
+  - type: Construction
+    graph: Girder
+    node: shuttleDecorativeWall
+  - type: Reflect
+    reflectProb: 0.1 # 10%
