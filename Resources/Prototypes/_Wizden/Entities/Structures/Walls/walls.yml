@@ -44,4 +44,4 @@
     key: walls
     base: state
   - type: Reflect
-    reflectProb: 1
+    reflectProb: 0.25 # imp

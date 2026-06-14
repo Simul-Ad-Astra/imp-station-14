@@ -535,10 +535,10 @@
               prototype: PartRodMetal1
               amount: 4
           steps:
-            - tool: Welding
-              doAfter: 10
+            # - tool: Welding # imp, commented out
+            #   doAfter: 2
             - tool: Cutting
-              doAfter: 1
+              doAfter: 5 # imp
               completed:
                 - !type:VisualizerDataInt
                   key: "enum.ShuttleWallVisuals.DeconstructionStage"
@@ -649,10 +649,10 @@
               amount: 1
           steps:
           #To-Do: Add deconstruct visuals
-            - tool: Welding
-              doAfter: 5
+            # - tool: Welding # imp, commented out
+            #   doAfter: 5
             - tool: Cutting
-              doAfter: 1
+              doAfter: 5 # imp
             - tool: Screwing
               doAfter: 1
             - tool: Welding
