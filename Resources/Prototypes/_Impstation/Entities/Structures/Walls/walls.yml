@@ -409,7 +409,7 @@
 - type: entity
   parent: BaseWall
   id: WallShuttleDecorative # for stations or when you want the look of shuttle walls but not the mechanics (as much)
-  name: decorative shuttle wall
+  name: station shuttle wall
   components:
   - type: Sprite
     sprite: Structures/Walls/shuttle.rsi
@@ -450,13 +450,13 @@
     graph: Girder
     node: shuttleDecorativeWall
   - type: Reflect
-    reflectProb: 0.1 # 10%
+    reflectProb: 0.25 # 25%
 
 - type: entity
   parent: WallDiagonalBase
   id: WallShuttleDecorativeDiagonal
   suffix: Diagonal
-  name: decorative shuttle wall
+  name: station shuttle wall
   components:
   - type: Sprite
     drawdepth: Walls
@@ -491,4 +491,4 @@
     graph: Girder
     node: shuttleDecorativeDiagonalWall
   - type: Reflect
-    reflectProb: 0.1 # 10%
+    reflectProb: 0.25 # 25%
