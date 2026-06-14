@@ -150,6 +150,21 @@
               amount: 2
               doAfter: 1
 
+        - to: shuttleInteriorDecorativeWall # imp
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          conditions:
+            - !type:EntityAnchored { }
+          steps:
+            - tool: Screwing
+              doAfter: 2
+            - material: Plastic
+              amount: 2
+              doAfter: 1
+            - tool: Welding
+              doAfter: 4
+
         - to: steelWoodWall # imp
           completed:
             - !type:SnapToGrid
@@ -311,6 +326,20 @@
             - tool: Screwing
               doAfter: 1
 
+    - node: shuttleInteriorDecorativeWall # imp
+      entity: WallShuttleInteriorDecorative
+      edges:
+        - to: Girder
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetPlastic1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Cutting
+              doAfter: 5
+
     - node: miningInteriorWall #imp
       entity: WallMiningInterior
       edges:
@@ -390,6 +419,9 @@
             - material: Plastic
               amount: 2
               doAfter: 1
+            - material: Plasteel
+              amount: 2
+              doAfter: 1
             - tool: Welding
               doAfter: 4
 
@@ -402,6 +434,9 @@
             - tool: Welding
               doAfter: 1
             - material: Plastic
+              amount: 2
+              doAfter: 1
+            - material: Plasteel
               amount: 2
               doAfter: 1
             - tool: Welding
@@ -704,11 +739,54 @@
             - !type:SpawnPrototype
               prototype: SheetPlastic1
               amount: 2
+            - !type:SpawnPrototype
+              prototype: SheetPlasteel1
+              amount: 2
           steps:
             - tool: Welding
               doAfter: 5
             - tool: Cutting
+              doAfter: 1
+              completed:
+                - !type:VisualizerDataInt
+                  key: "enum.ShuttleWallVisuals.DeconstructionStage"
+                  data: 5
+            - tool: Screwing
+              doAfter: 2
+            - tool: Welding
               doAfter: 5
+              completed:
+                - !type:VisualizerDataInt
+                  key: "enum.ShuttleWallVisuals.DeconstructionStage"
+                  data: 4
+            - tool: Prying
+              doAfter: 2
+            - tool: Anchoring
+              doAfter: 1
+              completed:
+                - !type:VisualizerDataInt
+                  key: "enum.ShuttleWallVisuals.DeconstructionStage"
+                  data: 3
+            - tool: Welding
+              doAfter: 10
+              completed:
+                - !type:VisualizerDataInt
+                  key: "enum.ShuttleWallVisuals.DeconstructionStage"
+                  data: 2
+            - tool: Prying
+              doAfter: 1
+              completed:
+                - !type:VisualizerDataInt
+                  key: "enum.ShuttleWallVisuals.DeconstructionStage"
+                  data: 1
+            - tool: Screwing
+              doAfter: 1
+              completed:
+                - !type:VisualizerDataInt
+                  key: "enum.ShuttleWallVisuals.DeconstructionStage"
+                  data: 0
+            - tool: Cutting
+              doAfter: 4
 
     - node: shuttleDecorativeDiagonalWall # imp
       entity: WallShuttleDecorativeDiagonal
@@ -718,11 +796,30 @@
             - !type:SpawnPrototype
               prototype: SheetPlastic1
               amount: 2
+            - !type:SpawnPrototype
+              prototype: SheetPlasteel1
+              amount: 2
           steps:
             - tool: Welding
               doAfter: 5
             - tool: Cutting
+              doAfter: 1
+            - tool: Screwing
+              doAfter: 1
+            - tool: Welding
               doAfter: 5
+            - tool: Prying
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 1
+            - tool: Welding
+              doAfter: 10
+            - tool: Prying
+              doAfter: 1
+            - tool: Screwing
+              doAfter: 1
+            - tool: Cutting
+              doAfter: 1
 
     - node: miningWall #imp
       entity: WallMining

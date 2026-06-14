@@ -195,6 +195,19 @@
     - !type:TileNotBlocked
 
 - type: construction
+  id: WallShuttleInteriorDecorative
+  graph: Girder
+  startNode: start
+  targetNode: shuttleInteriorDecorativeWall
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
   id: WallShuttleDecorativeDiagonal
   graph: Girder
   startNode: start

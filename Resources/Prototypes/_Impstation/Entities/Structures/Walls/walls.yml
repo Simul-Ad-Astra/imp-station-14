@@ -409,12 +409,62 @@
 - type: entity
   parent: BaseWall
   id: WallShuttleDecorative # for stations or when you want the look of shuttle walls but not the mechanics (as much)
-  name: station shuttle wall
+  name: station shuttle wall # same stats as reinforced walls
   components:
   - type: Sprite
     sprite: Structures/Walls/shuttle.rsi
   - type: Icon
     sprite: Structures/Walls/shuttle.rsi
+    state: full
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:ChangeConstructionNodeBehavior
+        node: girder
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: ReinforcedWallReplacementMarker
+  - type: RadiationBlocker
+    resistance: 5
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        density: 2000
+
+- type: entity
+  parent: BaseWall
+  id: WallShuttleInteriorDecorative # same stats as solid walls
+  name: station shuttle wall
+  components:
+  - type: Sprite
+    sprite: _Wizden/Structures/Walls/shuttleinterior.rsi
+  - type: Icon
+    sprite: _Wizden/Structures/Walls/shuttleinterior.rsi
     state: full
   - type: WallReplacementMarker
   - type: RCDDeconstructable
@@ -448,7 +498,7 @@
     base: state
   - type: Construction
     graph: Girder
-    node: shuttleDecorativeWall
+    node: shuttleInteriorDecorativeWall
   - type: Reflect
     reflectProb: 0.25 # 25%
 
