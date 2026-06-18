@@ -26,6 +26,9 @@
   - type: Item
     shape:
     - 0,0,1,0
+  - type: Tag # imp
+    tags:
+    - Ingredient
   - type: Fixtures
     fixtures:
       fix1:
@@ -42,6 +45,7 @@
   - type: AtmosExposed
   - type: Temperature
     currentTemperature: 290
+  - type: TemperatureDamage
   # required for cooking to work
   - type: InternalTemperature
     thickness: 0.02
@@ -69,16 +73,6 @@
     entity: FoodMeatRotten
     # once it would say bloated, turn into the rotten prototype
     stage: 1
-
-# bruh
-- type: Tag
-  id: Raw
-
-- type: Tag
-  id: Cooked
-
-- type: Tag
-  id: Cutlet
 
 # Raw
 
@@ -150,7 +144,7 @@
   # MeatFish?...
   id: FoodMeatFish
   name: raw carp fillet
-  description: Your last words being "Wow, exotic!" are not worth it. The taste itself though? Maybe.
+  description: Your last words being "Wow, fishy!" are not worth it. The taste itself though? Maybe. #imp edit #swapped "Wow, exotic!" with "Wow, fishy!"
   components:
   - type: FlavorProfile
     flavors:

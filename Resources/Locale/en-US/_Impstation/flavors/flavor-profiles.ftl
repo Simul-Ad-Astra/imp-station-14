@@ -10,6 +10,7 @@ flavor-base-ectoplasm = ghastly
 flavor-base-fatty = fatty
 flavor-base-gooey = gooey
 flavor-base-ants = like ants
+flavor-base-light = light
 
 flavor-complex-raktaccino = fantastically bitter
 flavor-complex-moscowmule = like a kick in the teeth
@@ -35,6 +36,8 @@ flavor-base-whimsy = whimsical
 flavor-complex-secticket = like rotten eggs
 flavor-complex-outofthisworld = out of this world
 flavor-complex-imp = like green marijuana
+flavor-complex-treatchunk = like treason and cherry
+flavor-complex-hardtack = like you might chip a tooth
 
 flavor-complex-medium = like your vision expanded
 
@@ -64,6 +67,10 @@ flavor-complex-supermixer = boringly sweet
 flavor-complex-supermixerpsych = like a psychiatric appointment
 
 flavor-complex-moonrise = like sweet nostalgia
+flavor-complex-funny-lifting-drink = like you've drank nothing
+flavor-complex-cream-soda = like creamy vanilla
+flavor-complex-cream-soda-orange = like creamy oranges
+flavor-complex-cream-soda-berry = like creamy mixed berries
 
 flavor-complex-poormansfrezon = like a good time
 flavor-complex-doublegreen = bitter and nauseating
@@ -118,3 +125,5 @@ flavor-complex-irwizine = like wrestling an alligator
 flavor-complex-rose = like a garden in the summer
 flavor-complex-allulalo = like hand sanitizer
 flavor-complex-pear = like pear
+flavor-complex-concerning = Concerning
+flavor-complex-magic = like your head is swirling and spinning

@@ -57,6 +57,9 @@
       effects:
       - !type:SatiateThirst
         factor: 1
+      - !type:AdjustReagent # imp - added so banana cream pie retains some nutritional value. + cream is very calorically dense irl
+        reagent: Nutriment
+        amount: 0.5
 
 - type: reagent
   id: CoconutWater
@@ -465,7 +468,7 @@
         scaling: true
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Decapoid, Thaven ] # thaven can breathe all gases safely
+          type: [ Decapoid, Thaven, Anomalocarid ] # thaven can breathe all gases safely
       - !type:ModifyLungGas
         conditions:
         - !type:MetabolizerTypeCondition
