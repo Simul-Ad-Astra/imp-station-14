@@ -69,3 +69,47 @@
     fireRate: 2
   - type: GunSpreadModifier
     spread: 1.2
+
+- type: entity
+  parent: [BaseWeaponShotgun, BaseGunWieldable]
+  id: WeaponShotgunDoubleShellGun
+  name: double shell gun
+  description: Uses .50 shotgun shells.
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Weapons/Guns/Shotguns/hypnalis.rsi
+  - type: Item
+    sprite: _Impstation/Objects/Weapons/Guns/Shotguns/hypnalis.rsi
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Gun
+    fireRate: 1
+    minAngle: 1
+    maxAngle: 180
+    angleIncrease: 30
+    angleDecay: 30
+    shotsPerBurst: 2
+    burstCooldown: 0.15
+    burstFireRate: 20
+    availableModes:
+    - Burst
+  - type: GunSpreadModifier
+    spread: 0.6
+  - type: BallisticAmmoProvider
+    capacity: 2
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/shotgun_close.ogg
+  - type: MeleeWeapon
+    attackRate: 0.6
+  - type: StaminaDamageOnHit
+    damage: 10 #slight stagger, but still like 10 hits to stun completely
+  - type: MeleeThrowOnHit
+    distance: 0.8
+    speed: 5
+  - type: DamageOtherOnHit #for throwing
+    staminaCost: 10
+    damage:
+      types:
+        Blunt: 8
