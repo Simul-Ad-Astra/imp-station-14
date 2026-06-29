@@ -264,6 +264,17 @@
         - !type:ReagentCondition
           reagent: Dermaline
           min: 10
+      # imp edit start
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectDrowsiness
+        time: 2
+        type: Add
+      - !type:PopupMessage
+        type: Local
+        messages:
+        - effect-sleepy
+        probability: 0.1
+      # imp edit end
 
 - type: reagent
   id: Dexalin
@@ -489,11 +500,11 @@
             Shock: -0.33
             Cold: -0.33
       - !type:SatiateThirst
-        factor: -10
+        factor: -25
         conditions:
         - !type:ReagentCondition
           reagent: Kelotane
-          min: 30
+          min: 5 # imp edit, was 30
       - !type:PopupMessage
         type: Local
         messages:
@@ -504,7 +515,9 @@
         conditions:
         - !type:ReagentCondition
           reagent: Kelotane
-          min: 25
+          min: 5
+      - !type:AdjustTemperature # imp
+        amount: -4000 # temperature numbers are really weird
 
 - type: reagent
   id: Leporazine
