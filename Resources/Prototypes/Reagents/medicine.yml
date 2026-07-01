@@ -146,6 +146,8 @@
             Radiation: -3
           groups:
             Brute: 1.5
+      - !type:Vomit # imp
+        probability: 0.05
 
 - type: reagent
   id: Bicaridine
@@ -230,6 +232,11 @@
           damage:
             types:
              Cellular: -2
+        # imp edit start
+        - !type:Vomit
+          probability: 0.02
+        - !type:Jitter
+        # imp edit start
 
 - type: reagent
   id: Dermaline
@@ -301,6 +308,9 @@
           types:
             Asphyxiation: 3
             Cold: 1
+      - !type:Emote # imp
+        emote: Cough
+        probability: 0.1
 
 - type: reagent
   id: DexalinPlus
@@ -334,6 +344,9 @@
           types:
             Asphyxiation: 5
             Cold: 3
+      - !type:Emote # imp
+        emote: Cough
+        probability: 0.05
 
 # this ones a doozy
 - type: reagent
