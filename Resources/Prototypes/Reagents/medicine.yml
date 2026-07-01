@@ -241,6 +241,10 @@
           messages:
           - generic-reagent-effect-nauseous
           probability: 0.1
+        - !type:ModifyStatusEffect
+          effectProto: StatusEffectSeeingRainbow
+          time: 5
+          type: Add
         # imp edit start
 
 - type: reagent
