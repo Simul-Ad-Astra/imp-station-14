@@ -49,6 +49,5 @@
     minAngle: 0
     maxAngle: 5
     fireRate: 2
-    projectileSpeed: 0.05 # this doesn't seem to work lol. welp.
   - type: UseDelay
     delay: 0.25
