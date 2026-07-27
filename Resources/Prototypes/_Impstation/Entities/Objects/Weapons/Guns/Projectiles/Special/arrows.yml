@@ -1,0 +1,26 @@
+- type: entity
+  parent: BaseArrow
+  id: ArrowImprovisedReinforced
+  name: reinforced glass shard arrow
+  description: Oh, look. There's metal shards in this one.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    layers:
+    - state: tail
+      color: white
+    - state: rod
+      color: darkgray
+    - state: tip
+      color: blue
+    - state: solution1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+        Slashing: 7 # slashing cause there's metal bits in the reinforced glass. also so it has some sort of niche other than being a direct upgrade to regular glass arrows
+  - type: Construction
+    graph: ImprovisedArrow
+    node: ImprovisedArrow

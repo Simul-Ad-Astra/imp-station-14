@@ -1,7 +1,8 @@
 - type: entity
-  id: BowImprovised
+  id: BowSecurity # this is kinda a bad id but I'm just following the naming of BowImprovised
   parent: BaseBow
-  name: improvised shortbow
+  name: SECure T-6 compound bow
+  description: A NT-made compound bow with the latest bells and whistles. Manufactured to be strong, yet fast and easy to draw.
   components:
   - type: Sprite
     layers:
@@ -44,3 +45,10 @@
         base:
           True: { state: wielded }
           False: { state: unwielded }
+  - type: Gun
+    minAngle: 0
+    maxAngle: 5
+    fireRate: 2
+    projectileSpeed: 0.05 # this doesn't seem to work lol. welp.
+  - type: UseDelay
+    delay: 0.25
