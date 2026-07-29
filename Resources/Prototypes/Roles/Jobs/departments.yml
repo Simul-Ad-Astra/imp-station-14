@@ -34,6 +34,7 @@
   #- ServiceWorker
   # end imp edit, a department of TWO, available on xbox 360 and playstation 3 march 6, 2008
   - Assistant # imp, non-roundstart
+  - TramDriver
 
 - type: department
   id: CentralCommand
@@ -147,6 +148,7 @@
   roles:
   - Reporter
   - Psychologist
+  - TramDriver
   primary: false
   manifestHidden: true #imp edit
   editorHidden: true #imp edit

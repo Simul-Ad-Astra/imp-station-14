@@ -153,6 +153,7 @@
   - ClothingUniformJumpsuitMusician
   - ClothingUniformJumpsuitMusicianMarchingBand # imp
   - ClothingHeadHatMusicianShako # imp
+  - ClothingUniformJumpsuitTramDriver
 
 - type: latheRecipePack
   parent:
@@ -195,6 +196,7 @@
   - ClothingNeckTieRed
   - ClothingNeckTieDet
   - ClothingNeckTieSci
+  - ClothingNeckTieSerious
 
 - type: latheRecipePack
   id: Scarves

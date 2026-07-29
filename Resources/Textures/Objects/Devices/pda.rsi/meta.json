@@ -306,6 +306,9 @@
         },
         {
             "name": "pda-syndi-agent"
+        },
+        {
+            "name": "pda-tramdriver"
         }
     ]
 }
