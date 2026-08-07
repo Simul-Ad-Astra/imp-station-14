@@ -241471,7 +241471,7 @@ entities:
   - uid: 36258
     components:
     - type: MetaData
-      desc: This airlock commemorate the valiant effort's of HoS Juan Cruz and Nanotrasen security officers in the ongoing war against syndicate terrorism.
+      desc: This airlock commemorate the valiant effort's of HoS Juan Cruz and Nanotrasen security guards in the ongoing war against syndicate terrorism.
       name: Juan Cruz memorial airlock
     - type: Transform
       pos: -43.5,0.5
