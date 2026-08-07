@@ -5,21 +5,28 @@
       slotTexture: shoes
       slotFlags: FEET
       stripTime: 3
-      uiWindowPos: 1,0
+      uiWindowPos: 2,0
       strippingWindowPos: 1,3
       displayName: Shoes
     - name: jumpsuit
       slotTexture: uniform
+      slotFlags: INNERCLOTHING # this will get changed into pants/bottoms later
+      stripTime: 6
+      uiWindowPos: 1,0
+      strippingWindowPos: 0,2
+      displayName: Innerwear Bottom
+    - name: shirt # maybe all of this should go to an imp version of this file instead. idk I can change it later
+      slotTexture: id # change this later when the new texure exists
       slotFlags: INNERCLOTHING
       stripTime: 6
-      uiWindowPos: 0,1
-      strippingWindowPos: 0,2
-      displayName: Jumpsuit
+      uiWindowPos: 1,1
+      strippingWindowPos: 6,6
+      displayName: Innerwear Top
     - name: outerClothing
       slotTexture: suit
       slotFlags: OUTERCLOTHING
       stripTime: 6
-      uiWindowPos: 1,1
+      uiWindowPos: 0,1
       strippingWindowPos: 1,2
       displayName: Suit
     - name: gloves
