@@ -1,48 +1,4 @@
 ﻿Entries:
-- author: VeeNomine
-  changes:
-  - message: 'Law !@#%: Silicon World'
-    type: Add
-  id: 2394
-  time: '2025-11-07T06:46:56.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3679
-- author: kipdotnet
-  changes:
-  - message: Folding chairs are now a 1x4 in storage.
-    type: Tweak
-  - message: Allulalo now hold 4u of Ethanotoxin, up from 2u. The guidebook has been
-      updated to clarify that they dont have an unlimited amount of it and shouldnt
-      be gnawing their coworkers to death.
-    type: Tweak
-  - message: Fixed Allulalo being able to use computers from the floor.
-    type: Fix
-  - message: The "No Accent" trait now actually works for Allulalo.
-    type: Fix
-  - message: Allulalo sprites should now have significantly less floating pixels.
-    type: Fix
-  - message: Allulalo are now included on the species guidebook page.
-    type: Fix
-  id: 2395
-  time: '2025-11-07T07:28:16.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3661
-- author: FlippenPage
-  changes:
-  - message: Conversion Kits have been resprited! And are slightly less jank.
-    type: Fix
-  id: 2396
-  time: '2025-11-07T18:12:16.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3673
-- author: starlighthowls
-  changes:
-  - message: Engi access is required to change the settings on a SMES or Substation.
-    type: Tweak
-  - message: More little balance changes for Eeeps.
-    type: Tweak
-  - message: Eeeps can now sacrifice their own power to cause an EMP.
-    type: Add
-  id: 2397
-  time: '2025-11-07T22:42:31.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/3629
 - author: kipdotnet
   changes:
   - message: Fixed vacuum flasks turning into giant error signs when you opened them.
@@ -4114,3 +4070,32 @@
   id: 2893
   time: '2026-08-06T12:03:03.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/4526
+- author: BombasterDS, Solstice, Androidonator, jkwookee
+  changes:
+  - message: Lifeline effects for admins.
+    type: Add
+  id: 2894
+  time: '2026-08-07T19:21:56.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4483
+- author: Simul-ad-Astra
+  changes:
+  - message: NT's recently ""acquired"" station, Serpentcrest, is now receiving trials
+      before full introduction into service in the IMP sector.
+    type: Add
+  id: 2895
+  time: '2026-08-07T20:22:37.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4510
+- author: pagesix, lobsterpaw
+  changes:
+  - message: Luna station. It's back!
+    type: Add
+  id: 2896
+  time: '2026-08-07T20:35:15.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4525
+- author: hivehum
+  changes:
+  - message: Being drunk feels like the good old days.
+    type: Tweak
+  id: 2897
+  time: '2026-08-07T20:44:01.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/4514
