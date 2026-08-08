@@ -5,29 +5,31 @@
       slotTexture: shoes
       slotFlags: FEET
       stripTime: 3
-      uiWindowPos: 2,0
-      strippingWindowPos: 1,3
+      uiWindowPos: 2,0 # imp change
+      strippingWindowPos: 2,3
       displayName: Shoes
     - name: jumpsuit
       slotTexture: uniform
       slotFlags: INNERCLOTHING # this will get changed into pants/bottoms later
       stripTime: 6
-      uiWindowPos: 1,0
-      strippingWindowPos: 0,2
-      displayName: Innerwear Bottom
-    - name: shirt # maybe all of this should go to an imp version of this file instead. idk I can change it later. Yeah I should probably do this
+      uiWindowPos: 1,0 # imp change
+      strippingWindowPos: 1,3
+      displayName: Innerwear Bottom # imp change
+    # imp changes start
+    - name: shirt # maybe all of this should go to an imp version of this file instead. idk I can change it later. # I'm not sure if hardforking inventory templates is necessary actually, but idk
       slotTexture: id # change this later when the new texure exists
       slotFlags: INNERCLOTHING
       stripTime: 6
       uiWindowPos: 1,1
-      strippingWindowPos: 6,6
+      strippingWindowPos: 1,2
       displayName: Innerwear Top
+    # imp changes end
     - name: outerClothing
       slotTexture: suit
       slotFlags: OUTERCLOTHING
       stripTime: 6
-      uiWindowPos: 0,1
-      strippingWindowPos: 1,2
+      uiWindowPos: 0,1 # imp change
+      strippingWindowPos: 0,2
       displayName: Suit
     - name: gloves
       slotTexture: gloves
