@@ -27,7 +27,7 @@ public sealed class ToggleableClothingSystem : EntitySystem
     [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedStrippableSystem _strippable = default!;
-    [Dependency] private readonly ClothingSystem _clothingSystem = default!;
+    [Dependency] private readonly ClothingSystem _clothingSystem = default!; //imp change
 
     public override void Initialize()
     {
@@ -251,6 +251,7 @@ public sealed class ToggleableClothingSystem : EntitySystem
         else
             _inventorySystem.TryEquip(user, parent, component.ClothingUid.Value, component.Slot, triggerHandContact: true);
 
+        // imp changes start
         if (component.FoldedEquippedPrefix == null)
             return;
         else
@@ -267,6 +268,7 @@ public sealed class ToggleableClothingSystem : EntitySystem
                 component.IsFolded = false;
             }
         }
+        // imp changes end
     }
 
     private void OnGetActions(EntityUid uid, ToggleableClothingComponent component, GetItemActionsEvent args)

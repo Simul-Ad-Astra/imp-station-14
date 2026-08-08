@@ -72,6 +72,8 @@ public sealed partial class ToggleableClothingComponent : Component
     [DataField, AutoNetworkedField]
     public string? VerbText;
 
+    // imp changes start
+
     /// <summary>
     ///     What equipped prefix does this have while in folded form?
     /// </summary>
@@ -79,8 +81,10 @@ public sealed partial class ToggleableClothingComponent : Component
     public string? FoldedEquippedPrefix;
 
     /// <summary>
-    ///     Stores
+    ///     Stores whether the item is currently in the folded state or not
     /// </summary>
     [DataField]
     public bool IsFolded = false;
+
+    // imp changes end
 }
