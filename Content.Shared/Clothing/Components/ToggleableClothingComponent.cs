@@ -77,4 +77,10 @@ public sealed partial class ToggleableClothingComponent : Component
     /// </summary>
     [DataField]
     public string? FoldedEquippedPrefix;
+
+    /// <summary>
+    ///     Stores
+    /// </summary>
+    [DataField]
+    public bool IsFolded = false;
 }

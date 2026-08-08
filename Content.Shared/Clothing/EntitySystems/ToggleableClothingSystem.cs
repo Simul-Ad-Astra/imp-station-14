@@ -255,8 +255,17 @@ public sealed class ToggleableClothingSystem : EntitySystem
             return;
         else
         {
-            TryComp<ClothingComponent>(user, out var clothingComp);
-            _clothingSystem.SetEquippedPrefix(user, component.FoldedEquippedPrefix, clothingComp);
+            TryComp<ClothingComponent>(target, out var clothingComp);
+            if (!component.IsFolded)
+            {
+                _clothingSystem.SetEquippedPrefix(target, component.FoldedEquippedPrefix, clothingComp);
+                component.IsFolded = true;
+            }
+            else
+            {
+                _clothingSystem.SetEquippedPrefix(target, null, clothingComp);
+                component.IsFolded = false;
+            }
         }
     }
 
