@@ -15,7 +15,7 @@
       uiWindowPos: 1,0
       strippingWindowPos: 0,2
       displayName: Innerwear Bottom
-    - name: shirt # maybe all of this should go to an imp version of this file instead. idk I can change it later
+    - name: shirt # maybe all of this should go to an imp version of this file instead. idk I can change it later. Yeah I should probably do this
       slotTexture: id # change this later when the new texure exists
       slotFlags: INNERCLOTHING
       stripTime: 6

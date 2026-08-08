@@ -71,4 +71,10 @@ public sealed partial class ToggleableClothingComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public string? VerbText;
+
+    /// <summary>
+    ///     What equipped prefix does this have while in folded form?
+    /// </summary>
+    [DataField]
+    public string? FoldedEquippedPrefix;
 }
