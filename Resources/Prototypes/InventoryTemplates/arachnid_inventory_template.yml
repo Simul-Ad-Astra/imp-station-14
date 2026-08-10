@@ -25,8 +25,8 @@
     - name: gloves
       slotTexture: gloves
       slotFlags: GLOVES
-      uiWindowPos: 2,2
-      strippingWindowPos: 2,3
+      uiWindowPos: 2,1
+      strippingWindowPos: 2,2
       displayName: Gloves
     - name: neck
       slotTexture: neck
