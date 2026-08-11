@@ -79,12 +79,5 @@ public sealed partial class ToggleableClothingComponent : Component
     /// </summary>
     [DataField]
     public string? FoldedEquippedPrefix;
-
-    /// <summary>
-    ///     Stores whether the item is currently in the folded state or not
-    /// </summary>
-    [DataField]
-    public bool IsFolded = false;
-
     // imp changes end
 }

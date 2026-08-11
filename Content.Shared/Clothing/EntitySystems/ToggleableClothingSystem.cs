@@ -237,38 +237,37 @@ public sealed class ToggleableClothingSystem : EntitySystem
 
     private void ToggleClothing(EntityUid user, EntityUid target, ToggleableClothingComponent component)
     {
+        TryComp<ClothingComponent>(target, out var clothingComp); // imp
+
         if (component.Container == null || component.ClothingUid == null)
             return;
 
         var parent = Transform(target).ParentUid;
         if (component.Container.ContainedEntity == null)
+        {
             _inventorySystem.TryUnequip(user, parent, component.Slot, force: true);
+            // imp changes start
+            if (component.FoldedEquippedPrefix == null)
+                return;
+            else
+                _clothingSystem.SetEquippedPrefix(target, null, clothingComp);
+            // imp changes end
+        }
         else if (_inventorySystem.TryGetSlotEntity(parent, component.Slot, out var existing))
         {
             _popupSystem.PopupClient(Loc.GetString("toggleable-clothing-remove-first", ("entity", existing)),
                 user, user);
         }
         else
-            _inventorySystem.TryEquip(user, parent, component.ClothingUid.Value, component.Slot, triggerHandContact: true);
-
-        // imp changes start
-        if (component.FoldedEquippedPrefix == null)
-            return;
-        else
         {
-            TryComp<ClothingComponent>(target, out var clothingComp);
-            if (!component.IsFolded)
-            {
-                _clothingSystem.SetEquippedPrefix(target, component.FoldedEquippedPrefix, clothingComp);
-                component.IsFolded = true;
-            }
+            _inventorySystem.TryEquip(user, parent, component.ClothingUid.Value, component.Slot, triggerHandContact: true);
+            // imp changes start
+            if (component.FoldedEquippedPrefix == null)
+                return;
             else
-            {
-                _clothingSystem.SetEquippedPrefix(target, null, clothingComp);
-                component.IsFolded = false;
-            }
+                _clothingSystem.SetEquippedPrefix(target, component.FoldedEquippedPrefix, clothingComp);
+            // imp changes end
         }
-        // imp changes end
     }
 
     private void OnGetActions(EntityUid uid, ToggleableClothingComponent component, GetItemActionsEvent args)
