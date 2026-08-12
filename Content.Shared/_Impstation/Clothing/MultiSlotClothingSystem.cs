@@ -38,18 +38,21 @@ public sealed class MultiSlotClothingSystem : EntitySystem
     {
         if (args.Clothing.InSlot == null) // if the clothing isn't in a slot
             return;
-        if (_inventorySystem.TryGetSlotEntity(ent.Owner, ent.Comp.Slot, out var existing)) // if the slot for the virtual item is already full
+        if (_inventorySystem.TryGetSlotEntity(args.Wearer, ent.Comp.Slot, out var existing)) // if the slot for the virtual item is already full
         {
-            _inventorySystem.TryUnequip(ent.Owner, args.Clothing.InSlot); // try to unequip the clothing
+            _inventorySystem.TryUnequip(args.Wearer, args.Clothing.InSlot); // try to unequip the clothing
             _popup.PopupClient(Loc.GetString("toggleable-clothing-remove-first", ("entity", existing)), ent.Owner);// and send a popup
             return;
         }
-        _virtualItem.TrySpawnVirtualItemInInventory(ent, args.Wearer, ent.Comp.Slot); // try to make the virtual item
+        if (!_virtualItem.TrySpawnVirtualItemInInventory(ent.Owner, args.Wearer, ent.Comp.Slot, true)) // try to make the virtual item
+        {
+            _inventorySystem.TryUnequip(args.Wearer, args.Clothing.InSlot); // if it fails unequip the item
+            return;
+        }
     }
 
     private void OnUnequip(Entity<MultiSlotClothingComponent> ent, ref ClothingGotUnequippedEvent args)
     {
-        _virtualItem.DeleteInSlotMatching(ent.Owner, ent, ent.Comp.Slot); // delete the virtual item
+        _virtualItem.DeleteInSlotMatching(args.Wearer, ent.Owner, ent.Comp.Slot); // delete the virtual item
     }
-
 }

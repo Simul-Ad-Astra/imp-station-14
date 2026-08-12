@@ -16,7 +16,7 @@ public sealed partial class MultiSlotClothingComponent : Component
     ///     The inventory slot flags required for this component to function.
     /// </summary>
     [DataField("requiredSlot"), AutoNetworkedField]
-    public SlotFlags RequiredFlags = SlotFlags.INNERCLOTHING;
+    public SlotFlags RequiredFlags = SlotFlags.INNERCLOTHING; // UNUSED. maybe use it, asshole
 
     /// <summary>
     ///     The inventory slot that the virtual item is equipped to.
