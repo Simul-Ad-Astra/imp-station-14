@@ -26,10 +26,10 @@
     damageModifierSet: Colonid
   - type: Bloodstream
     bloodReagent: Plasma
-  - type: IgniteFromGas
-    explosionDelayLength: 3
-    triggeringGas: Oxygen
-  - type: Explosive
+  # - type: IgniteFromGas
+  #   explosionDelayLength: 3
+  #   triggeringGas: Oxygen
+  - type: Explosive # this was a very funny but bad idea. Only keep this if I can restrict them to only being set off by big explosions
     totalIntensity: 10
     intensitySlope: 10
     canCreateVacuum: false

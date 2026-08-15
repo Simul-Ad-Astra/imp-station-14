@@ -13,11 +13,14 @@ namespace Content.Server._Impstation.Colonid.Components;
 public sealed partial class IgniteFromGasComponent : Component
 {
     /// <summary>
-    ///     how many fire stacks should be applied per check?
+    ///     the amount of fire stacks that should be applied per check.
     /// </summary>
     [DataField("fireStacksAmount"), ViewVariables(VVAccess.ReadWrite)]
     public int FireStacksAmount = 2;
 
+    /// <summary>
+    ///     the gas that sets the entity on fire
+    /// </summary>
     [DataField("triggeringGas"), ViewVariables(VVAccess.ReadWrite)]
     public string TriggeringGas;
 

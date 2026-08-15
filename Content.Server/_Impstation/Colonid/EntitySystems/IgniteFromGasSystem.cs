@@ -10,7 +10,7 @@ namespace Content.Server._Impstation.Colonid.EntitySystems;
 public sealed class IgniteFromGasSystem : EntitySystem
 {
     [Dependency] private readonly AtmosphereSystem _atmo = default!;
-    [Dependency] private readonly InventorySystem _inventorySystem = default!;
+    [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly FlammableSystem _flammable = default!;
 
     private readonly Entity<IgniteFromGasComponent> _ent = default;
@@ -31,7 +31,7 @@ public sealed class IgniteFromGasSystem : EntitySystem
     /// </summary>
     /// <param name="entity"></param>
     /// <returns> true or false </returns>
-    private bool CheckAtmosForGas(Entity<IgniteFromGasComponent> entity, Entity<TransformComponent> ent)
+    private bool CheckAtmosForGas(Entity<IgniteFromGasComponent> entity, Entity<TransformComponent?> ent)
     {
         string targetGas = entity.Comp.TriggeringGas;
 
@@ -53,16 +53,19 @@ public sealed class IgniteFromGasSystem : EntitySystem
     /// </summary>
     /// <param name="entity"></param>
     /// <returns> true or false </returns>
-    private bool CheckInventoryForProtection(Entity<InventoryComponent> entity) // TODO: change "Inner Wear", etc to something.Comp.OuterWear, etc also has to find those entities first
+    private bool CheckInventoryForProtection(Entity<InventoryComponent> entity)
     {
-        bool output = false;
-
-        if ((_inventorySystem.TryGetInventoryEntity<SealedClothingComponent>(entity, "Inner Wear") || _inventorySystem.TryGetInventoryEntity<SealedClothingComponent>(entity, "Outer Wear")) && _inventorySystem.TryGetInventoryEntity<SealedClothingComponent>(entity, "Helmet"))
-        {
-            output = true;
-        }
-
-        return output;
+        _inventory.TryGetSlotEntity(entity, "jumpsuit", out var jumpsuit);
+        _inventory.TryGetSlotEntity(entity, "outerClothing", out var outer);
+        _inventory.TryGetSlotEntity(entity, "head", out var head);
+        if (jumpsuit == null && outer == null) // if there isn't a jumpsuit OR outerclothing equipped
+            return false;
+        if (head == null) // if there isn't anything equipped in the head slot
+            return false;
+        // if neither [both jumpsuit and head] nor [both outerclothing and head] have SealedClothingComponent
+        if ((TryComp<SealedClothingComponent>(jumpsuit, out var resultjump) || TryComp<SealedClothingComponent>(outer, out var resultouter)) && TryComp<SealedClothingComponent>(head, out var resulthead)) // I don't care about the result vars, but it won't let me just not have them.
+            return true;
+        return false; // if all else fails, return false
     }
 
     private GasEntry[] GenerateGasEntryArray(GasMixture? mixture)
