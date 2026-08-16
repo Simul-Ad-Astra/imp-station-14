@@ -25,7 +25,8 @@
 - type: metabolizerType
   id: Colonid
   name: metabolizer-type-colonid
-  
+
+- type: metabolizerType
   id: Allulalo
   name: metabolizer-type-allulalo
 

@@ -14,7 +14,6 @@ public sealed class IgniteFromGasSystem : EntitySystem
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly FlammableSystem _flammable = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
-    [Dependency] private readonly GasMixture _mixture = default!;
 
     private readonly Entity<IgniteFromGasComponent> _ent = default;
 
@@ -22,17 +21,17 @@ public sealed class IgniteFromGasSystem : EntitySystem
     {
         base.Update(frameTime);
 
-        var curTime = _timing.CurTime;
+        // var curTime = _timing.CurTime;
 
-        if (_ent.Comp.NextCheck > curTime)
-            return;
+        // if (_ent.Comp.NextCheck > curTime)
+        //     return;
 
         if (CheckAtmosForGas(_ent) && !CheckInventoryForProtection(_ent))
         {
             _flammable.AdjustFireStacks(_ent, _ent.Comp.FireStacksAmount);
         }
 
-        _ent.Comp.NextCheck += _ent.Comp.UpdateInterval;
+        // _ent.Comp.NextCheck += _ent.Comp.UpdateInterval;
     }
 
     /// <summary>
@@ -51,7 +50,7 @@ public sealed class IgniteFromGasSystem : EntitySystem
         if (gasMix == null) // make sure the gas mixture has gas in it
             return false;
 
-        if (_mixture.GetMoles(entity.Comp.TriggerGas) < entity.Comp.TriggerThreshold) // if the amount of the trigger gas is below the trigger threshold
+        if (gasMix.GetMoles(entity.Comp.TriggerGas) < entity.Comp.TriggerThreshold) // if the amount of the trigger gas is below the trigger threshold
             return false;
 
         return true; // if all of that passed, then it must be true

@@ -22,10 +22,10 @@ public sealed partial class IgniteFromGasComponent : Component
 
     /// <summary>
     ///     The gas that sets the entity on fire.
-    ///     Defaults to plasma
+    ///     Defaults to oxygen
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public Gas TriggerGas = Gas.Oxygen;
+    public Gas TriggerGas;
 
     /// <summary>
     ///     The amount of gas needed to trigger ignition
