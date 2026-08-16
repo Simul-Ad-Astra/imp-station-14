@@ -28,7 +28,8 @@
     bloodReagent: Plasma
   # - type: IgniteFromGas
   #   explosionDelayLength: 3
-  #   triggeringGas: 0 # Oxygen, please replace if there's a better way to do this
+  #   triggerGas: 0 # Oxygen, please replace if there's a better way to do this
+  #   triggerThreshold: 1
   - type: Explosive # this was a very funny but bad idea. Only keep this if I can restrict them to only being set off by big explosions
     totalIntensity: 10
     intensitySlope: 10
