@@ -1,5 +1,5 @@
-- type: entity
-  save: false
-  name: Urist McPlasma
-  parent: BaseMobColonid
-  id: MobColonid
+# - type: entity
+#   save: false
+#   name: Urist McPlasma
+#   parent: BaseMobColonid
+#   id: MobColonid

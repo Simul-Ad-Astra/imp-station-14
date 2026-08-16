@@ -1,55 +1,55 @@
-- type: entity
-  save: false
-  parent: BaseMobSpeciesOrganic
-  id: BaseMobColonid
-  name: Urist McPlasma
-  abstract: true
-  components:
-  - type: GoobAbsorbable
-  - type: Icon
-    sprite: _Impstation/Mobs/Species/Colonid/parts.rsi
-    state: full
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeatHuman
-      amount: 5
-  - type: HumanoidAppearance
-    species: Colonid
-  - type: Inventory
-    speciesId: Human
-  - type: Body
-    prototype: Colonid
-    requiredLegs: 2
-  - type: Damageable
-    damageContainer: Biological
-    damageModifierSet: Colonid
-  - type: Bloodstream
-    bloodReagent: Plasma
-  - type: IgniteFromGas
-    explosionDelayLength: 3
-    triggerGas: 0 # Oxygen, please replace if there's a better way to do this
-    triggerThreshold: 1
-  - type: Explosive # this was a very funny but bad idea. Only keep this if I can restrict them to only being set off by big explosions
-    explosionType: Default
-    totalIntensity: 10
-    intensitySlope: 10
-    canCreateVacuum: false
-    maxIntensity: 8
-  - type: Speech # change this later when new one exists
-    speechSounds: PVC
-  - type: TypingIndicator # change this later when new one exists
-    proto: gray
-  - type: Carriable # Carrying system from nyanotrasen.
-  - type: Vocal # change this later when new one exists
-    sounds:
-      Male: UnisexGray
-      Female: UnisexGray
-      Unsexed: UnisexGray
+# - type: entity
+#   save: false
+#   parent: BaseMobSpeciesOrganic
+#   id: BaseMobColonid
+#   name: Urist McPlasma
+#   abstract: true
+#   components:
+#   - type: GoobAbsorbable
+#   - type: Icon
+#     sprite: _Impstation/Mobs/Species/Colonid/parts.rsi
+#     state: full
+#   - type: Butcherable
+#     butcheringType: Spike
+#     spawned:
+#     - id: FoodMeatHuman
+#       amount: 5
+#   - type: HumanoidAppearance
+#     species: Colonid
+#   - type: Inventory
+#     speciesId: Human
+#   - type: Body
+#     prototype: Colonid
+#     requiredLegs: 2
+#   - type: Damageable
+#     damageContainer: Biological
+#     damageModifierSet: Colonid
+#   - type: Bloodstream
+#     bloodReagent: Plasma
+#   - type: IgniteFromGas
+#     explosionDelayLength: 3
+#     triggerGas: 0 # Oxygen, please replace if there's a better way to do this
+#     triggerThreshold: 1
+#   - type: Explosive # this was a very funny but bad idea. Only keep this if I can restrict them to only being set off by big explosions
+#     explosionType: Default
+#     totalIntensity: 10
+#     intensitySlope: 10
+#     canCreateVacuum: false
+#     maxIntensity: 8
+#   - type: Speech # change this later when new one exists
+#     speechSounds: PVC
+#   - type: TypingIndicator # change this later when new one exists
+#     proto: gray
+#   - type: Carriable # Carrying system from nyanotrasen.
+#   - type: Vocal # change this later when new one exists
+#     sounds:
+#       Male: UnisexGray
+#       Female: UnisexGray
+#       Unsexed: UnisexGray
 
-- type: entity
-  parent: BaseSpeciesDummy
-  id: MobColonidDummy
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Inventory
+# - type: entity
+#   parent: BaseSpeciesDummy
+#   id: MobColonidDummy
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: Inventory

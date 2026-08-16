@@ -32,19 +32,4 @@ public sealed partial class IgniteFromGasComponent : Component
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public float TriggerThreshold;
-
-    /// <summary>
-    ///     The server time at which the next check for the triggering gas is done.
-    /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
-    [AutoNetworkedField, AutoPausedField]
-    public TimeSpan NextCheck = TimeSpan.Zero;
-
-    /// <summary>
-    ///     How often the check for the triggering gas is proformed.
-    ///     Defaults to every quarter of a second
-    /// </summary>
-    [DataField]
-    [AutoNetworkedField]
-    public TimeSpan UpdateInterval = TimeSpan.FromSeconds(0.25);
 }

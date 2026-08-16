@@ -1,10 +1,9 @@
-using System.Linq;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server._Impstation.Colonid.Components;
 using Content.Shared.Atmos;
 using Content.Shared.Inventory;
-using static Content.Shared.Atmos.Components.GasAnalyzerComponent;
 using Robust.Shared.Timing;
+using Content.Shared.Atmos.Components;
 
 namespace Content.Server._Impstation.Colonid.EntitySystems;
 
@@ -13,36 +12,39 @@ public sealed class IgniteFromGasSystem : EntitySystem
     [Dependency] private readonly AtmosphereSystem _atmo = default!;
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly FlammableSystem _flammable = default!;
-    [Dependency] private readonly IGameTiming _timing = default!;
 
-    private readonly Entity<IgniteFromGasComponent> _ent = default;
+    private float _timer = 0;
+    /// <summary>
+    ///     How often the check for the triggering gas is performed.
+    /// </summary>
+    public float UpdateInterval = 25f;
 
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<IgniteFromGasComponent, MapInitEvent>(OnMapInit);
     }
 
     public override void Update(float frameTime) // honestly I don't really understand most of the stuff in here. I just copied it from the slarti guide. that's probably why it's not working.
-    {
-        base.Update(frameTime);
-
-        var curTime = _timing.CurTime;
-
-        if (_ent.Comp.NextCheck > curTime)
+    {                                            // ok I changed it to something else that I think I understand now
+        _timer += frameTime;
+        if (_timer < UpdateInterval)
             return;
+        _timer -= UpdateInterval;
 
-        if (CheckAtmosForGas(_ent) && !CheckInventoryForProtection(_ent))
+        var enumerator = EntityQueryEnumerator<IgniteFromGasComponent>();
+        while (enumerator.MoveNext(out var uid, out var ignite))
         {
-            _flammable.AdjustFireStacks(_ent, _ent.Comp.FireStacksAmount);
+            Entity<IgniteFromGasComponent?> ent = uid;
+            if (Comp<IgniteFromGasComponent>(ent) == null)
+                return;
+            if (CheckAtmosForGas(ent) && !CheckInventoryForProtection(ent))
+            {
+                if (Comp<FlammableComponent>(uid) == null)
+                    return;
+
+                _flammable.AdjustFireStacks(ent, ignite.FireStacksAmount);
+            }
         }
-
-        _ent.Comp.NextCheck += _ent.Comp.UpdateInterval;
-    }
-
-    private void OnMapInit(Entity<IgniteFromGasComponent> ent, ref MapInitEvent args) // see comment on Update().
-    {
-        ent.Comp.NextCheck = _timing.CurTime + ent.Comp.UpdateInterval;
     }
 
     /// <summary>
@@ -50,9 +52,12 @@ public sealed class IgniteFromGasSystem : EntitySystem
     /// </summary>
     /// <param name="entity">The entity with IgniteFromGasComponent</param>
     /// <returns> true or false </returns>
-    private bool CheckAtmosForGas(Entity<IgniteFromGasComponent> entity)
+    private bool CheckAtmosForGas(Entity<IgniteFromGasComponent?> entity)
     {
-        TryComp<TransformComponent>(entity, out var location); // get the transformatiuon component of the entity.
+        if (entity == null || entity.Comp == null)
+            return false;
+
+        TransformComponent? location = Transform(entity); // get the transformatiuon component of the entity.
         if (location == null)
             return false;
 
@@ -72,7 +77,7 @@ public sealed class IgniteFromGasSystem : EntitySystem
     /// </summary>
     /// <param name="entity"></param>
     /// <returns> true or false </returns>
-    private bool CheckInventoryForProtection(Entity<IgniteFromGasComponent> ent) // TODO: find some way to let the component define what slots are necessary without breaking the logic.
+    private bool CheckInventoryForProtection(Entity<IgniteFromGasComponent?> ent) // TODO: find some way to let the component define what slots are necessary without breaking the logic.
     {
         TryComp<InventoryComponent>(ent, out var inventory); // make sure the entity has an inventory to check
         if (inventory == null)

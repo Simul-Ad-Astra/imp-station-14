@@ -65,7 +65,7 @@
         damage:
           types:
             Poison: 0.7
-      - !type:FlammableReaction # Imp
+      - !type:Flammable # Imp
         multiplier: 0.4
         conditions:
         - !type:MetabolizerTypeCondition
@@ -143,12 +143,11 @@
       # We need a metabolism effect on reagent removal
       - !type:AdjustAlert
         alertType: Toxins
+        minScale: 1.5
         conditions:
-          - !type:ReagentThreshold
-            min: 1.5
-          - !type:MetabolizerTypeCondition
-            type: [ Colonid ]
-            inverted: true
+        - !type:MetabolizerTypeCondition
+          type: [ Colonid ]
+          inverted: true
       # We need a metabolism effect on reagent removal
       - !type:AdjustAlert
         alertType: Toxins
