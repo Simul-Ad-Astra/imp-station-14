@@ -11,7 +11,7 @@ namespace Content.Server._Impstation.Colonid.Components;
 ///     This component ligts an entity on fire if it is not wearing clothing with the suitEVA or sealedClothing tags (sealedClothing was made specifically for this component)
 ///     AND the entity is in an atmosphere containing the specified gas.
 /// </summary>
-[RegisterComponent, Access(typeof(IgniteFromGasSystem))]
+[RegisterComponent, AutoGenerateComponentPause]
 public sealed partial class IgniteFromGasComponent : Component
 {
     /// <summary>
@@ -25,7 +25,7 @@ public sealed partial class IgniteFromGasComponent : Component
     ///     Defaults to plasma
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public Gas TriggeringGas = Gas.Oxygen;
+    public Gas TriggerGas = Gas.Oxygen;
 
     /// <summary>
     ///     The amount of gas needed to trigger ignition

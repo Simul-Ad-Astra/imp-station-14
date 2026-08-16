@@ -24,13 +24,15 @@ public sealed class IgniteFromGasSystem : EntitySystem
 
         var curTime = _timing.CurTime;
 
-
+        if (_ent.Comp.NextCheck > curTime)
+            return;
 
         if (CheckAtmosForGas(_ent) && !CheckInventoryForProtection(_ent))
         {
             _flammable.AdjustFireStacks(_ent, _ent.Comp.FireStacksAmount);
         }
 
+        _ent.Comp.NextCheck += _ent.Comp.UpdateInterval;
     }
 
     /// <summary>
@@ -40,19 +42,19 @@ public sealed class IgniteFromGasSystem : EntitySystem
     /// <returns> true or false </returns>
     private bool CheckAtmosForGas(Entity<IgniteFromGasComponent> entity)
     {
-        TryComp<TransformComponent>(entity, out var location);
+        TryComp<TransformComponent>(entity, out var location); // get the transformatiuon component of the entity.
         if (location == null)
             return false;
 
-        GasMixture? gasMix = _atmo.GetTileMixture(location.Owner); // take the gasMixure of then tile the entity is one
+        GasMixture? gasMix = _atmo.GetTileMixture(location.Owner); // take the gasMixure of then tile the entity is one.
 
-        if (gasMix == null)
+        if (gasMix == null) // make sure the gas mixture has gas in it
             return false;
 
-        if (_mixture.GetMoles(entity.Comp.TriggeringGas) >= entity.Comp.TriggerThreshold)
-            return true;
+        if (_mixture.GetMoles(entity.Comp.TriggerGas) < entity.Comp.TriggerThreshold) // if the amount of the trigger gas is below the trigger threshold
+            return false;
 
-        return false; // if all else fails return false.
+        return true; // if all of that passed, then it must be true
     }
 
     /// <summary>
@@ -78,7 +80,7 @@ public sealed class IgniteFromGasSystem : EntitySystem
 
         // if neither [both jumpsuit and head] nor [both outerclothing and head] have SealedClothingComponent
         if ((TryComp<SealedClothingComponent>(jumpsuit, out var resultjump) || TryComp<SealedClothingComponent>(outer, out var resultouter)) && TryComp<SealedClothingComponent>(head, out var resulthead)) // I don't care about the result vars, but it won't let me just not have them.
-            return true;
+            return true; // I could flip the logic on this one to have a return true at the end but I don't feel like doing that. yell at me if that's bad.
 
         return false; // if all else fails, return false
     }
