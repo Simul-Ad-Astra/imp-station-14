@@ -17,21 +17,32 @@ public sealed class IgniteFromGasSystem : EntitySystem
 
     private readonly Entity<IgniteFromGasComponent> _ent = default;
 
-    public override void Update(float frameTime)
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<IgniteFromGasComponent, MapInitEvent>(OnMapInit);
+    }
+
+    public override void Update(float frameTime) // honestly I don't really understand most of the stuff in here. I just copied it from the slarti guide. that's probably why it's not working.
     {
         base.Update(frameTime);
 
-        // var curTime = _timing.CurTime;
+        var curTime = _timing.CurTime;
 
-        // if (_ent.Comp.NextCheck > curTime)
-        //     return;
+        if (_ent.Comp.NextCheck > curTime)
+            return;
 
         if (CheckAtmosForGas(_ent) && !CheckInventoryForProtection(_ent))
         {
             _flammable.AdjustFireStacks(_ent, _ent.Comp.FireStacksAmount);
         }
 
-        // _ent.Comp.NextCheck += _ent.Comp.UpdateInterval;
+        _ent.Comp.NextCheck += _ent.Comp.UpdateInterval;
+    }
+
+    private void OnMapInit(Entity<IgniteFromGasComponent> ent, ref MapInitEvent args) // see comment on Update().
+    {
+        ent.Comp.NextCheck = _timing.CurTime + ent.Comp.UpdateInterval;
     }
 
     /// <summary>

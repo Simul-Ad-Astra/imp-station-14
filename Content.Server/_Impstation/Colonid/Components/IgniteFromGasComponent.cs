@@ -25,7 +25,7 @@ public sealed partial class IgniteFromGasComponent : Component
     ///     Defaults to oxygen
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public Gas TriggerGas;
+    public Gas TriggerGas = Gas.Oxygen;
 
     /// <summary>
     ///     The amount of gas needed to trigger ignition

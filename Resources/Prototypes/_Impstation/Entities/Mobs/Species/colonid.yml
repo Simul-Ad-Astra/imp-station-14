@@ -36,7 +36,16 @@
     intensitySlope: 10
     canCreateVacuum: false
     maxIntensity: 8
+  - type: Speech # change this later when new one exists
+    speechSounds: PVC
+  - type: TypingIndicator # change this later when new one exists
+    proto: gray
   - type: Carriable # Carrying system from nyanotrasen.
+  - type: Vocal # change this later when new one exists
+    sounds:
+      Male: UnisexGray
+      Female: UnisexGray
+      Unsexed: UnisexGray
 
 - type: entity
   parent: BaseSpeciesDummy
