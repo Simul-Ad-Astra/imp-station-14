@@ -2,6 +2,8 @@ using Content.Server._Impstation.Colonid.EntitySystems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Map;
 using Robust.Shared.Serialization;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
+using Content.Shared.Atmos;
 
 namespace Content.Server._Impstation.Colonid.Components;
 
@@ -13,15 +15,36 @@ namespace Content.Server._Impstation.Colonid.Components;
 public sealed partial class IgniteFromGasComponent : Component
 {
     /// <summary>
-    ///     the amount of fire stacks that should be applied per check.
+    ///     The amount of fire stacks that should be applied per check.
     /// </summary>
-    [DataField("fireStacksAmount"), ViewVariables(VVAccess.ReadWrite)]
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
     public int FireStacksAmount = 2;
 
     /// <summary>
-    ///     the gas that sets the entity on fire
+    ///     The gas that sets the entity on fire.
+    ///     Defaults to plasma
     /// </summary>
-    [DataField("triggeringGas"), ViewVariables(VVAccess.ReadWrite)]
-    public string TriggeringGas;
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public Gas TriggeringGas = Gas.Oxygen;
 
+    /// <summary>
+    ///     The amount of gas needed to trigger ignition
+    /// </summary>
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    public float TriggerThreshold;
+
+    /// <summary>
+    ///     The server time at which the next check for the triggering gas is done.
+    /// </summary>
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [AutoNetworkedField, AutoPausedField]
+    public TimeSpan NextCheck = TimeSpan.Zero;
+
+    /// <summary>
+    ///     How often the check for the triggering gas is proformed.
+    ///     Defaults to every quarter of a second
+    /// </summary>
+    [DataField]
+    [AutoNetworkedField]
+    public TimeSpan UpdateInterval = TimeSpan.FromSeconds(0.25);
 }
