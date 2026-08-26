@@ -6017,7 +6017,7 @@ entities:
     - type: Transform
       parent: 15
       pos: -88.5,-12.5
-- proto: AirlockExternalGlassShuttleCargo
+- proto: AirlockExternalGlassShuttleShipyard
   entities:
   - uid: 1174
     components:
@@ -13163,7 +13163,7 @@ entities:
       parent: 15
       rot: 3.141592653589793 rad
       pos: 13.5,-12.5
-- proto: ButtonFrameWhite
+- proto: ButtonFrameGrey
   entities:
   - uid: 21992
     components:
